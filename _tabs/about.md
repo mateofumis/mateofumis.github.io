@@ -78,4 +78,4 @@ order: 4
 
 ### ❖ Perfil de Hack The Box: [https://app.hackthebox.com/profile/1223814](https://app.hackthebox.com/profile/1223814){:target="_blank"}
 
-### ❖ Descargar mi CV: [CV - Mateo Fumis - Mayo 2023.pdf](https://bit.ly/CV-Mateo_Fumis-Mayo-2023){:target="_blank"}
+### ❖ Descargar mi CV: [CV - Mateo Fumis - Mayo 2023.pdf](https://bit.ly/CV-Mateo_Fumis-Junio-2023){:target="_blank"}
