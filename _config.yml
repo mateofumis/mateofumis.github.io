@@ -22,10 +22,8 @@ social:
   email: mateofumis1@gmail.com
   links:
     # The first element serves as the copyright owner's link
-    #- https://twitter.com/username #
-    - https://github.com/mateofumis #
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://github.com/mateofumis
+    - https://twitter.com/hackermater11
     - https://www.linkedin.com/in/mateo-gabriel-fumis
 
 theme_mode: dark # [light|dark]
