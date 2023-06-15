@@ -14,8 +14,10 @@ url: "https://mateofumis.github.io"
 
 github:
   username: mateofumis
-    #twitter:
-    #  username: twitter_username # change to your twitter username
+twitter:
+  username: hackermater11
+linkedin:
+  username: mateo-gabriel-fumis
 
 social:
   name: Mateo Fumis
