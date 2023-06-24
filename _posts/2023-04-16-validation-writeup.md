@@ -1,5 +1,6 @@
 ---
 title:  "Writeup de la máquina Validation de Hack The Box"
+date: 2023-04-16
 mathjax: true
 layout: post
 categories: writeup

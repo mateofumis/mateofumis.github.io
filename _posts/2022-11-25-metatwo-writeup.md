@@ -1,5 +1,6 @@
 ---
 title:  "Writeup de la máquina MetaTwo de Hack The Box"
+date: 2022-11-25
 mathjax: true
 layout: post
 categories: writeup

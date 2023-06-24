@@ -1,5 +1,6 @@
 ---
 title:  "Writeup de la máquina Precious de Hack The Box"
+date: 2023-01-29
 mathjax: true
 layout: post
 categories: writeup

@@ -1,5 +1,6 @@
 ---
 title:  "Writeup de la máquina GoodGames de Hack The Box"
+date: 2023-06-23
 mathjax: true
 layout: post
 categories: writeup
