@@ -234,7 +234,7 @@ augustus@GoodGames:~$
 
 ##### *Explicación*: Tenemos que tener en cuenta que dentro del contenedor somos usuario root, pero dentro del host local de la máquina somos usuarios sin privilegios. 
 
-##### En base a esto hay algo muy simple que podemos hacer que es copiar el binario "bash" de la máquina local hacia nuestro directorio $HOME y desde el contenedor, como usuario root modificar los privilegios para luego usarlo y ejecutar "./bash -p" y escalar el privilegio hacia root desde la el host local de la máquina.
+##### En base a esto hay algo muy simple que podemos hacer que es copiar el binario "bash" desde la máquina local hacia nuestro directorio $HOME y desde el contenedor como usuario root modificar los privilegios para luego usarlo y ejecutar "./bash -p" y escalar el privilegio a root desde el host local de la máquina.
 
 #### Una vez planeado nuestro ataque:
 
