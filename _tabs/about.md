@@ -37,7 +37,7 @@ order: 4
 
 #### Curso de **TCM Security**, dictado por el profesor *Michael Taggart*, el cual tuvo una duración de 9 horas en total. En el curso aprendí en profundidad cómo realizar auditorías hacia aplicaciones web, incluyendo el uso de OWASP ZAP y la redacción de reportes. También aprendí cómo funcionan las aplicaciones web tanto del lado del cliente como del servidor y cómo se comunican a través del protocolo HTTP.
 
-![certificado-tcm-security-pwst-mateo-gabriel-fumis](https://i.ibb.co/WpzFcC0/TCM-Security-Practical-Web-Application-Security-and-Testing-Mateo-Fumis.png)
+![certificado-tcm-security-pwst-mateo-gabriel-fumis](https://i.ibb.co/PzbNGdS/TCM-Security-Practical-Web-Application-Security-and-Testing-Mateo-Fumis.png)
 
 ----
 
