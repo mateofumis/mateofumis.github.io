@@ -8,9 +8,13 @@ order: 4
 
 ## ¡Hola, soy Mateo! 👋👋
 
-### 🌐 Desde chico siempre tuve una pasión por la informática y las computadoras 💻. Más adelante cuando terminé la secundaria comencé a estudiar programación. 📅 Fue en Octubre del 2022 cuando comencé a entrar en el mundo de la Ciberseguridad y el Hacking Ético 🕵️.
+🌐 Desde chico siempre tuve una pasión por la informática y las computadoras . 
 
-### Actualmente me encuentro estudiando todo lo que abarca el Pentesting de Aplicaciones Web; practicando la resolución de máquinas vulnerables en **Hack The Box**; realizando cursos online; y leyendo artículos de ciberseguridad y writeups.
+💻 Más adelante cuando terminé la secundaria comencé a estudiar programación . 
+
+📅 Fue en Octubre del 2022 cuando comencé a entrar en el mundo de la Ciberseguridad y el Hacking Ético 🕵️.
+
+Actualmente me encuentro estudiando todo lo que abarca el Pentesting de Aplicaciones Web; practicando la resolución de máquinas vulnerables en **Hack The Box**; realizando cursos online; y leyendo artículos de ciberseguridad y writeups.
 
 ----
 
@@ -19,19 +23,38 @@ order: 4
 *   Burp Suite
 *   OWASP ZAP (ZAP Proxy)
 *   Nmap
+*   Netcat
+*   cURL
 *   Gobuster
 *   FFUF
 *   SQLmap
 *   WPScan
+*   Hashcat
 *   SQL Injection (SQLi)
 *   Server-side Request Forgery (SSRF)
 *   Local File Inclusion (LFI) y Remote File Inclusion (RFI)
 *   Cross-site Scripting (XSS)
 *   XML External Entity Injection (XXE)
 *   Server-side Template Injection (SSTI)
+*   JWTs (JSON Web Tokens) Attacks
+*   Fuzzing de APIs
 
 ----
 # 🏆 Cursos y Certificaciones
+
+## "Mobile Application Penetration Testing" *(En curso...)*
+
+#### Actualmente estoy cursando este curso de **TCM Security** sobre el Pentesting de Apps Móviles. En el mismo estoy abordando el análisis estático y dinámico de la aplicación, SSL Pinning, uso de MobSF y Frida, y muchos otros temas más.
+
+----
+
+## "Practical API Hacking"
+
+#### Curso de **TCM Security**, dictado por el profesor *Alex Olsen*, en el cual profundicé mis conocimientos en el Pentesting Web mediante el hacking de APIs. A través de la manipulación de las APIs que utilizan las Aplicaciones Web, aprendí técnicas como el Fuzzing y el técnicas de cambios distintos métodos de Requests (GET, POST, HEAD, OPTIONS, PUT, PATH, DELETE, etc...) por el cual como Pentester, en una auditoría web, se es posible vulnerar y *acceder a funciones privilegiadas* (Broken Function Level Authentication) o también a *información sensible* (Broken Object Level Authentication). También aprendí cómo realizar ataques de Tokens, como por ejemplo los ataques de JWTs (JSON Web Tokens).
+
+![certificado-tcm-security-practical-api-hacking-mateo-gabriel-fumis](https://i.ibb.co/WD5gdBC/TCM-Security-Practical-API-Hacking-Mateo-Fumis.png)
+
+----
 
 ## "Practical Web Application Security and Testing"
 
@@ -49,6 +72,7 @@ order: 4
 ![certificado-ethical-hacking-essentials](https://eccommonstorage.blob.core.windows.net/codered/certificates/58f1336c-d4e6-480e-9fde-29bf315c38cf.png)
 
 ----
+
 ## "Pentesting Web. Prácticas de un Ethical Hacker Profesional."
 
 #### Curso en *Udemy* sobre Pentesting de Aplicaciones Web: _"Pentesting Web. Prácticas de un Ethical Hacker Profesional."_ dictado por el profesor Álvaro Chirou. En el mismo conocí las Top 10 Vulnerabilidades de las Aplicaciones Web, o también llamado [OWASP Top 10](https://owasp.org/www-project-top-ten/){:target="_blank"} y a utilizar varias herramientas y técnicas del pentesting de manera profesional.
@@ -57,6 +81,7 @@ order: 4
 ![certificado-pentesting-web](https://i.ibb.co/dWcD9dR/Mateo-Fumis-Pentesting-Web-Pr-cticas-de-un-Ethical-Hacker-Profesional.png)
 
 ----
+
 ## "Introducción a la Seguridad Cibernética"
 
 #### En 2021 realicé un curso de la empresa **Cisco**, sobre la Ciberseguridad: _"Introducción a la Seguridad Cibernética"_. En el mismo aprendí los conceptos teóricos esenciales sobre la Ciberseguridad en la actualidad, su importancia y el impacto que reciben las empresas, gobiernos, organizaciones y personas a causa de los ciberataques que cada año se incrementan más y más.
@@ -66,16 +91,16 @@ order: 4
 
 ----
 
-### 📚💻 _Actualmente sé programar principalmente en Python, Javascript y Bash Scripting, lo que me sirve a la hora de analizar código en busca de vulnerabilidades y crear algunos scripts cuando hago pentesting en máquinas vulnerables._
+#### 📚💻 _Actualmente sé programar principalmente en Python, Javascript y Bash Scripting, lo que me sirve a la hora de analizar código en busca de vulnerabilidades y crear algunos scripts cuando hago pentesting en máquinas vulnerables._
 
 ----
 
 ## 🌐 Links útiles:
 
-### ❖ LinkedIn: [https://www.linkedin.com/in/mateo-gabriel-fumis](https://www.linkedin.com/in/mateo-gabriel-fumis){:target="_blank"}
+#### ❖ LinkedIn: [https://www.linkedin.com/in/mateo-gabriel-fumis](https://www.linkedin.com/in/mateo-gabriel-fumis){:target="_blank"}
 
-### ❖ Github: [https://github.com/mateofumis](https://github.com/mateofumis){:target="_blank"}
+#### ❖ Github: [https://github.com/mateofumis](https://github.com/mateofumis){:target="_blank"}
 
-### ❖ Perfil de Hack The Box: [https://app.hackthebox.com/profile/1223814](https://app.hackthebox.com/profile/1223814){:target="_blank"}
+#### ❖ Perfil de Hack The Box: [https://app.hackthebox.com/profile/1223814](https://app.hackthebox.com/profile/1223814){:target="_blank"}
 
-### ❖ Descargar mi CV: [CV - Mateo Fumis - Junio 2023.pdf](https://bit.ly/CV-Mateo_Fumis-Junio-2023){:target="_blank"}
+#### ❖ Descargar mi CV: [CV - Mateo Fumis - Junio 2023.pdf](https://bit.ly/CV-Mateo_Fumis-Junio-2023){:target="_blank"}
