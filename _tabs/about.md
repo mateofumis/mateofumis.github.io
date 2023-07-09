@@ -50,7 +50,7 @@ Actualmente me encuentro estudiando todo lo que abarca el Pentesting de Aplicaci
 
 ## "Practical API Hacking"
 
-#### Curso de **TCM Security**, dictado por el profesor *Alex Olsen*, en el cual profundicé mis conocimientos en el Pentesting Web mediante el hacking de APIs. A través de la manipulación de las APIs que utilizan las Aplicaciones Web, aprendí técnicas como el Fuzzing y el técnicas de cambios distintos métodos de Requests (GET, POST, HEAD, OPTIONS, PUT, PATH, DELETE, etc...) por el cual como Pentester, en una auditoría web, se es posible vulnerar y *acceder a funciones privilegiadas* (Broken Function Level Authentication) o también a *información sensible* (Broken Object Level Authentication). También aprendí cómo realizar ataques de Tokens, como por ejemplo los ataques de JWTs (JSON Web Tokens).
+#### Curso de **TCM Security**, dictado por el profesor *Alex Olsen*, en el cual profundicé mis conocimientos en el Pentesting Web mediante el hacking de APIs. A través de la manipulación de las APIs que utilizan las Aplicaciones Web, aprendí técnicas como el Fuzzing y el técnicas de cambios en distintos los métodos de Requests (GET, POST, HEAD, OPTIONS, PUT, PATH, DELETE, etc...) por el cual como Pentester, en una auditoría web, se es posible vulnerar y *acceder a funciones privilegiadas* (Broken Function Level Authentication) o también a *información sensible* (Broken Object Level Authentication). También aprendí cómo realizar ataques de Tokens, como por ejemplo los ataques de JWTs (JSON Web Tokens).
 
 ![certificado-tcm-security-practical-api-hacking-mateo-gabriel-fumis](https://i.ibb.co/WD5gdBC/TCM-Security-Practical-API-Hacking-Mateo-Fumis.png)
 
