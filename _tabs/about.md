@@ -48,6 +48,14 @@ Actualmente me encuentro estudiando todo lo que abarca el Pentesting de Aplicaci
 
 ----
 
+## "Practical Ethical Hacking - The Complete Course"
+
+#### Curso dictado por el actual CEO de **TCM Security**, Heath Adams, el cual abordó una introducción completa desde las bases del Ethical Hacking, así tanto como la Recopilación de Información mediante el OSINT (Open Source Intelligence), hasta el Pentesting de Active Directory, Pentesting Web y también de redes Wireless. En el curso aprendí también a llevar a cabo un Buffer Overflow y a tomar notas durante, antes y después de una auditoría para luego generar un reporte profesional para el cliente.
+
+![certificado-tcm-security-practical-ethical-hacking-the-compelte-course-mateo-gabriel-fumis](https://i.ibb.co/8Pzktwk/TCM-Security-Practical-Ethical-Hacking-Mateo-Fumis.png)
+
+----
+
 ## "Practical API Hacking"
 
 #### Curso de **TCM Security**, dictado por el profesor *Alex Olsen*, en el cual profundicé mis conocimientos en el Pentesting Web mediante el hacking de APIs. A través de la manipulación de las APIs que utilizan las Aplicaciones Web, aprendí técnicas como el Fuzzing y el técnicas de cambios en distintos los métodos de Requests (GET, POST, HEAD, OPTIONS, PUT, PATH, DELETE, etc...) por el cual como Pentester, en una auditoría web, se es posible vulnerar y *acceder a funciones privilegiadas* (Broken Function Level Authentication) o también a *información sensible* (Broken Object Level Authentication). También aprendí cómo realizar ataques de Tokens, como por ejemplo los ataques de JWTs (JSON Web Tokens).
@@ -103,4 +111,4 @@ Actualmente me encuentro estudiando todo lo que abarca el Pentesting de Aplicaci
 
 #### ❖ Perfil de Hack The Box: [https://app.hackthebox.com/profile/1223814](https://app.hackthebox.com/profile/1223814){:target="_blank"}
 
-#### ❖ Descargar mi CV: [CV - Mateo Fumis - Junio 2023.pdf](https://bit.ly/CV-Mateo_Fumis-Junio-2023){:target="_blank"}
+#### ❖ Descargar mi CV: [CV - Mateo Fumis.pdf](https://drive.google.com/file/d/1tR6gbwtcIR6ESU0NWUZVrj9QGxsQ5C9a/){:target="_blank"}
