@@ -4,7 +4,7 @@ date: 2023-07-25
 mathjax: true
 layout: post
 categories: tutorial
-tags: burp-suite ffuf docker webapp
+tags: burpsuite ffuf docker webapp
 ---
 
 #### It is possible to use FFUF like alternative to bypass Burp Suite Community Edition's Intruder attacks delay? 
