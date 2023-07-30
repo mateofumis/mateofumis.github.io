@@ -4,7 +4,7 @@ date: 2023-04-16
 mathjax: true
 layout: post
 categories: writeup
-tags: sql-injection burpsuite php web-shell burpsuite
+tags: sql-injection burpsuite php web-shell
 ---
 
 # Resolución de la máquina Validation de la plataforma de HackTheBox
