@@ -47,6 +47,15 @@ Actualmente me encuentro estudiando todo lo que abarca el Pentesting de Aplicaci
 
 ----
 
+## "Advanced Open Source Intelligence and Privacy"
+
+#### Curso de **EC-Council** en el cual aprendí las técnicas del OSINT, el uso de herramientas tales como Recon-ng, Sherlock, Spiderfoot, theHarvester, Sublist3r y dnstwist. También me capacité para realizar investigaciones del objetivo tanto a través Google usando Google Dorks, como en la Dark Web a través de la red Tor. Ademas de eso aprendí cómo utilizar los motores de búsqueda avanzados para recopilar información a partir de un nombre de dominio o una simple dirección IP, como podría ser el ejemplo de "Censys.io" o los servicios de "Shodan.io".
+##### ❖ [Enlace del Certificado](https://codered.eccouncil.org/certificate/58908836-9346-4691-b872-2cf15a980860){:target="_blank"}
+
+![certificado-advanced-open-source-intelligence-and-privacy](https://eccommonstorage.blob.core.windows.net/codered/certificates/58908836-9346-4691-b872-2cf15a980860.png)
+
+----
+
 ## "Practical Ethical Hacking - The Complete Course"
 
 #### Curso dictado por el actual CEO de **TCM Security**, Heath Adams, el cual abordó una introducción completa desde las bases del Ethical Hacking, así tanto como la Recopilación de Información mediante el OSINT (Open Source Intelligence), hasta el Pentesting de Active Directory, Pentesting Web y también de redes Wireless. En el curso aprendí también a llevar a cabo un Buffer Overflow y a tomar notas durante, antes y después de una auditoría para luego generar un reporte profesional para el cliente.
