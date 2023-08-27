@@ -47,6 +47,15 @@ Actualmente me encuentro estudiando todo lo que abarca el Pentesting de Aplicaci
 
 ----
 
+## "Hacking WEP/WPA/WPA2 Wi-Fi Networks Using Kali Linux 2.0"
+
+#### Curso de EC-Council donde aprendí a realizar ataques hacia redes inalámbricas: WEP, WPA y WPA2. Mediante el uso de la suite de Aircrack-ng, Airgeddon, Wifite, Reaver, Crunch, Hashcat, John The Ripper y otras herramientas más logré comprender la metodología de ataques a fuerza bruta (Rainbow Tables) o mediante Ingeniería Social (Ataque Evil-Twin). Además de los ataques por Pin WPS con herramientas tales como Reaver.
+#### ❖ [Enlace del Certificado](https://codered.eccouncil.org/certificate/ca1a1062-2c23-4d79-840d-d760a417e8b7)
+
+![certificado-ec-council-hacking-wireless-networks](https://i.ibb.co/fV3bdM0/certificado-ec-council-hacking-wireless-networks.png)
+
+----
+
 ## "Advanced Open Source Intelligence and Privacy"
 
 #### Curso de **EC-Council** en el cual aprendí las técnicas del OSINT, el uso de herramientas tales como Recon-ng, Sherlock, Spiderfoot, theHarvester, Sublist3r y dnstwist. También me capacité para realizar investigaciones del objetivo tanto a través Google usando Google Dorks, como en la Dark Web a través de la red Tor. Ademas de eso aprendí cómo utilizar los motores de búsqueda avanzados para recopilar información a partir de un nombre de dominio o una simple dirección IP, como podría ser el ejemplo de "Censys.io" o los servicios de "Shodan.io".
