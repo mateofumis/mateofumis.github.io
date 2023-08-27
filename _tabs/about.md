@@ -50,7 +50,7 @@ Actualmente me encuentro estudiando todo lo que abarca el Pentesting de Aplicaci
 ## "Hacking WEP/WPA/WPA2 Wi-Fi Networks Using Kali Linux 2.0"
 
 #### Curso de EC-Council donde aprendí a realizar ataques hacia redes inalámbricas: WEP, WPA y WPA2. Mediante el uso de la suite de Aircrack-ng, Airgeddon, Wifite, Reaver, Crunch, Hashcat, John The Ripper y otras herramientas más logré comprender la metodología de ataques a fuerza bruta (Rainbow Tables) o mediante Ingeniería Social (Ataque Evil-Twin). Además de los ataques por Pin WPS con herramientas tales como Reaver.
-#### ❖ [Enlace del Certificado](https://codered.eccouncil.org/certificate/ca1a1062-2c23-4d79-840d-d760a417e8b7)
+##### ❖ [Enlace del Certificado](https://codered.eccouncil.org/certificate/ca1a1062-2c23-4d79-840d-d760a417e8b7)
 
 ![certificado-ec-council-hacking-wireless-networks](https://i.ibb.co/fV3bdM0/certificado-ec-council-hacking-wireless-networks.png)
 
