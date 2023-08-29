@@ -128,4 +128,4 @@ Actualmente me encuentro estudiando todo lo que abarca el Pentesting de Aplicaci
 
 #### ❖ Perfil de Hack The Box: [https://app.hackthebox.com/profile/1223814](https://app.hackthebox.com/profile/1223814){:target="_blank"}
 
-#### ❖ Descargar mi CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/17QLE6_ItJaBFEZbGxB3FWNlvb4aS_kPE/){:target="_blank"}
+#### ❖ Descargar mi CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1AFmVaGSx4JogvvwwtRmqnKPMcJDDq6Nz/){:target="_blank"}
