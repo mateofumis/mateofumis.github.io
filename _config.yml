@@ -24,9 +24,9 @@ social:
   email: mateofumis1@gmail.com
   links:
     # The first element serves as the copyright owner's link
+    - https://www.linkedin.com/in/mateo-gabriel-fumis
     - https://github.com/mateofumis
     - https://twitter.com/hackermater11
-    - https://www.linkedin.com/in/mateo-gabriel-fumis
 
 theme_mode: dark # [light|dark]
 
