@@ -14,7 +14,13 @@ order: 4
 
 📅 Fue en Octubre del 2022 cuando comencé a entrar en el mundo de la Ciberseguridad y el Hacking Ético 🕵️.
 
-Actualmente me encuentro estudiando todo lo que abarca el Pentesting de Aplicaciones Web; practicando la resolución de máquinas vulnerables en **Hack The Box**; realizando cursos online; y leyendo artículos de ciberseguridad y writeups.
+Comencé estudiando todo lo que abarca el Pentesting de Aplicaciones Web; practicando la resolución de máquinas vulnerables en **Hack The Box**; realizando cursos online; y leyendo artículos de ciberseguridad y writeups.
+
+Actualmente me dedico al Bug Bounty Hunting en las plataformas de **HackerOne** e **Intigriti**.
+
+❖ Perfil de HackerOne: [https://hackerone.com/hackermater](https://hackerone.com/hackermater)
+
+❖ Perfil de Intigriti: [https://intigriti.com](https://app.intigriti.com/researcher/profile/xvim_hacker)
 
 ----
 
@@ -27,6 +33,7 @@ Actualmente me encuentro estudiando todo lo que abarca el Pentesting de Aplicaci
 *   cURL
 *   Gobuster
 *   FFUF
+*   Feroxbuster
 *   SQLmap
 *   WPScan
 *   SQL Injection (SQLi)
@@ -35,15 +42,12 @@ Actualmente me encuentro estudiando todo lo que abarca el Pentesting de Aplicaci
 *   Cross-site Scripting (XSS)
 *   XML External Entity Injection (XXE)
 *   Server-side Template Injection (SSTI)
+*   Cross-site Request Forgery (CSRF)
 *   JWTs (JSON Web Tokens) Attacks
 *   Fuzzing de APIs
 
 ----
 # 🏆 Cursos y Certificaciones
-
-## "Mobile Application Penetration Testing" *(En curso...)*
-
-#### Actualmente estoy cursando este curso de **TCM Security** sobre el Pentesting de Apps Móviles. En el mismo estoy abordando el análisis estático y dinámico de la aplicación, SSL Pinning, uso de MobSF y Frida, y muchos otros temas más.
 
 ----
 
@@ -116,7 +120,7 @@ Actualmente me encuentro estudiando todo lo que abarca el Pentesting de Aplicaci
 
 ----
 
-#### 📚💻 _Actualmente sé programar principalmente en Python, Javascript y Bash Scripting, lo que me sirve a la hora de analizar código en busca de vulnerabilidades y crear algunos scripts cuando hago pentesting en máquinas vulnerables._
+#### 📚💻 _Actualmente sé programar principalmente Bash Scripting, Python y Javascript lo que me sirve a la hora de analizar código en busca de vulnerabilidades y crear algunos scripts sencillos cuando realizo pentesting._
 
 ----
 
@@ -124,8 +128,8 @@ Actualmente me encuentro estudiando todo lo que abarca el Pentesting de Aplicaci
 
 #### ❖ LinkedIn: [https://www.linkedin.com/in/mateo-gabriel-fumis](https://www.linkedin.com/in/mateo-gabriel-fumis){:target="_blank"}
 
-#### ❖ Github: [https://github.com/mateofumis](https://github.com/mateofumis){:target="_blank"}
-
 #### ❖ Perfil de Hack The Box: [https://app.hackthebox.com/profile/1223814](https://app.hackthebox.com/profile/1223814){:target="_blank"}
+
+#### ❖ Github: [https://github.com/mateofumis](https://github.com/mateofumis){:target="_blank"}
 
 #### ❖ Descargar mi CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1AFmVaGSx4JogvvwwtRmqnKPMcJDDq6Nz/){:target="_blank"}
