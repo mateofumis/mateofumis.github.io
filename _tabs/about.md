@@ -20,7 +20,7 @@ Actualmente me dedico al Bug Bounty Hunting en las plataformas de **HackerOne** 
 
 ❖ Perfil de HackerOne: [https://hackerone.com/hackermater](https://hackerone.com/hackermater){:target="_blank"}
 
-❖ Perfil de Intigriti: [https://intigriti.com](https://app.intigriti.com/researcher/profile/xvim_hacker){:target="_blank"}
+❖ Perfil de Intigriti: [https://app.intigriti.com/researcher/profile/xvim_hacker](https://app.intigriti.com/researcher/profile/xvim_hacker){:target="_blank"}
 
 ----
 
