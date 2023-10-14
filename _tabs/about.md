@@ -98,7 +98,7 @@ Actualmente me dedico al Bug Bounty Hunting en las plataformas de **HackerOne** 
 #### Curso de **EC-Council** _"Ethical Hacking Essentials"_. En el mismo abordé los temas principales y esenciales del Ethical Hacking y cómo los hackers (éticos y no éticos) logran penetrar sistemas, utilizando diferentes técnicas y métodos tales como la ingeniería social o los ataques a redes inalámbricas; también los ataques hacia servicios en la nube y la creación y uso de malware tal como botnets, spyware, troyanos, rootkits, o gusanos. También aprendí cuáles son las contramedidas para mitigar estos ataques y poder asi proteger la empresa y los servicios que brinda.
 ##### ❖ [Enlace del Certificado](https://codered.eccouncil.org/certificate/58f1336c-d4e6-480e-9fde-29bf315c38cf){:target="_blank"}
 
-![certificado-ethical-hacking-essentials](https://)
+![certificado-ethical-hacking-essentials](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/Ethical-Hacking-Essentials-Mateo-Fumis_px.webp)
 
 ----
 
