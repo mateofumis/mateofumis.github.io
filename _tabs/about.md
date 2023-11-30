@@ -24,26 +24,27 @@ Actualmente me dedico al Bug Bounty Hunting en las plataformas de **HackerOne** 
 
 ----
 
-## 👔 Lista de las Herramientas y Técnicas del Pentesting Web que mejor domino actualmente y además mis favoritas:
+## 👔 Principales Herramientas y Técnicas del Pentesting Web que mejor domino:
 
 *   Burp Suite
 *   OWASP ZAP (ZAP Proxy)
 *   Nmap
 *   Netcat
 *   cURL
-*   Gobuster
 *   FFUF
 *   Feroxbuster
 *   SQLmap
 *   WPScan
+*   Subfinder
+*   HTTPx
 *   SQL Injection (SQLi)
 *   Server-side Request Forgery (SSRF)
-*   Local File Inclusion (LFI) y Remote File Inclusion (RFI)
+*   Local File Inclusion (LFI)
+*   Remote File Inclusion (RFI)
 *   Cross-site Scripting (XSS)
 *   XML External Entity Injection (XXE)
 *   Server-side Template Injection (SSTI)
 *   Cross-site Request Forgery (CSRF)
-*   JWTs (JSON Web Tokens) Attacks
 *   Fuzzing de APIs
 
 ----
