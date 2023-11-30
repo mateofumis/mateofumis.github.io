@@ -156,7 +156,7 @@ Upgrade-Insecure-Requests: 1
 ```
 
 - We've been used a CRLF Injection `(%0a)` to bypass the PHP WAF and therefore set for us the role "Admin". 
-- Also we added a new parameter to manipulate the application and can give to us access ad Administrator (`&role=Admin`).
+- Also we added a new parameter to manipulate the application and can give to us access as Administrator (`&role=Admin`).
 - Now we just need logout and login again to server can **reload** our **Role**:
 
 ![https://i.ibb.co/fq2B44c/clicker-htb-administration.webp](https://i.ibb.co/fq2B44c/clicker-htb-administration.webp)
