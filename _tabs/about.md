@@ -32,9 +32,10 @@ Actualmente me dedico al Bug Bounty Hunting en las plataformas de **HackerOne** 
 *   Netcat
 *   cURL
 *   FFUF
-*   Feroxbuster
+*   Gobuster
 *   SQLmap
 *   WPScan
+*   Cyberchef
 *   Subfinder
 *   HTTPx
 *   SQL Injection (SQLi)
@@ -46,10 +47,20 @@ Actualmente me dedico al Bug Bounty Hunting en las plataformas de **HackerOne** 
 *   Remote File Inclusion (RFI)
 *   Cross-site Request Forgery (CSRF)
 *   Server-side Template Injection (SSTI)
-*   Fuzzing de APIs
+*   APIs Fuzzing
 
 ----
+
 # 🏆 Cursos y Certificaciones
+
+----
+
+## Ingeniería Social para IT
+
+#### Curso de LinkedIn Learning el cual abordó de una forma completa y exhaustiva los aspectos esenciales tanto teóricos como con ejemplos reales, el arte de cómo los **Ingenieros Sociales** llevan a cabo su labor en la Ciberseguridad y el Red Teaming, con el objetivo de lograr persuadir a un sujeto y lograr obtener información confidencial, o que éste lleve a cabo una acción deseada por el Ingeniero Social.
+##### ❖ [Enlace del Certificado](https://www.linkedin.com/learning/certificates/6e88f9135fc13431dc8336cb2d937bf80f6a851e642b0e882af47e3c8546fe74)
+
+![certificado-ingenieria-social-para-it](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/Ingenier%C3%ADa-Social-para-IT-Mateo-Fumis_px.webp)
 
 ----
 
@@ -122,7 +133,7 @@ Actualmente me dedico al Bug Bounty Hunting en las plataformas de **HackerOne** 
 
 ----
 
-#### 📚💻 _Actualmente sé programar principalmente Bash Scripting, Python y Javascript lo que me sirve a la hora de analizar código en busca de vulnerabilidades y crear algunos scripts sencillos cuando realizo pentesting._
+#### 📚💻 Actualmente sé programar principalmente Bash Scripting, Python y Javascript lo que me sirve a la hora de analizar código en busca de vulnerabilidades y crear algunos scripts sencillos cuando realizo pentesting.
 
 ----
 
