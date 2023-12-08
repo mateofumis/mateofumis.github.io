@@ -58,7 +58,7 @@ Actualmente me dedico al Bug Bounty Hunting en las plataformas de **HackerOne** 
 ## Ingeniería Social para IT
 
 #### Curso de LinkedIn Learning el cual abordó de una forma completa y exhaustiva los aspectos esenciales tanto teóricos como con ejemplos reales, el arte de cómo los **Ingenieros Sociales** llevan a cabo su labor en la Ciberseguridad y el Red Teaming, con el objetivo de lograr persuadir a un sujeto y lograr obtener información confidencial, o que éste lleve a cabo una acción deseada por el Ingeniero Social.
-##### ❖ [Enlace del Certificado](https://www.linkedin.com/learning/certificates/6e88f9135fc13431dc8336cb2d937bf80f6a851e642b0e882af47e3c8546fe74)
+##### ❖ [Enlace del Certificado](https://www.linkedin.com/learning/certificates/6e88f9135fc13431dc8336cb2d937bf80f6a851e642b0e882af47e3c8546fe74){:target="_blank"}
 
 ![certificado-ingenieria-social-para-it](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/Ingenier%C3%ADa-Social-para-IT-Mateo-Fumis_px.webp)
 
@@ -67,7 +67,7 @@ Actualmente me dedico al Bug Bounty Hunting en las plataformas de **HackerOne** 
 ## "Hacking WEP/WPA/WPA2 Wi-Fi Networks Using Kali Linux 2.0"
 
 #### Curso de EC-Council donde aprendí a realizar ataques hacia redes inalámbricas: WEP, WPA y WPA2. Mediante el uso de la suite de Aircrack-ng, Airgeddon, Wifite, Reaver, Crunch, Hashcat, John The Ripper y otras herramientas más logré comprender la metodología de ataques a fuerza bruta (Rainbow Tables) o mediante Ingeniería Social (Ataque Evil-Twin). Además de los ataques por Pin WPS con herramientas tales como Reaver.
-##### ❖ [Enlace del Certificado](https://codered.eccouncil.org/certificate/ca1a1062-2c23-4d79-840d-d760a417e8b7)
+##### ❖ [Enlace del Certificado](https://codered.eccouncil.org/certificate/ca1a1062-2c23-4d79-840d-d760a417e8b7){:target="_blank"}
 
 ![certificado-ec-council-hacking-wireless-networks](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/Hacking-Wi-Fi-Networks-Kali-Linux-Mateo-Fumis_px.webp)
 
