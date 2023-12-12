@@ -55,6 +55,14 @@ Actualmente me dedico al Bug Bounty Hunting en las plataformas de **HackerOne** 
 
 ----
 
+## Mobile Application Penetration Testing
+
+#### Curso de **TCM Security** sobre Pentesting Mobile. En el mismo aprendí a realizar pruebas de penetración en aplicaciones móviles realizado tanto el análisis estático como el análisis dinámico. Con herramientas como jadx-gui, Apktool, Objection, Frida, Burp Suite y Android Studio, este curso abordó de una forma completa las fases del pentesting mobile.
+
+![certificado-mobile-application-penetration-testing](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/TCM-Security-Mobile-Application-Penetration-Testing-Mateo-Fumis_px.webp)
+
+----
+
 ## Ingeniería Social para IT
 
 #### Curso de LinkedIn Learning el cual abordó de una forma completa y exhaustiva los aspectos esenciales tanto teóricos como con ejemplos reales, el arte de cómo los **Ingenieros Sociales** llevan a cabo su labor en la Ciberseguridad y el Red Teaming, con el objetivo de lograr persuadir a un sujeto y lograr obtener información confidencial, o que éste lleve a cabo una acción deseada por el Ingeniero Social.
