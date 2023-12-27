@@ -153,4 +153,4 @@ Actualmente me dedico al Bug Bounty Hunting en las plataformas de **HackerOne** 
 
 #### ❖ Github: [https://github.com/mateofumis](https://github.com/mateofumis){:target="_blank"}
 
-#### ❖ Descargar mi CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1JBTkLxSBufaEQ5ty5D2Gb1-cqgsFVoE2){:target="_blank"}
+#### ❖ Descargar mi CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1n_EVJBn2ryvRCmrwAAYgYAm8Bgu8mysb){:target="_blank"}
