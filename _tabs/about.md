@@ -100,7 +100,7 @@ Actualmente me dedico al Bug Bounty Hunting en las plataformas de **HackerOne** 
 
 ## "Practical API Hacking"
 
-#### Curso de **TCM Security**, dictado por el profesor *Alex Olsen*, en el cual profundicé mis conocimientos en el Pentesting Web mediante el hacking de APIs. A través de la manipulación de las APIs que utilizan las Aplicaciones Web, aprendí técnicas como el Fuzzing y técnicas de cambios en los distintos métodos de Requests (tales como GET, POST, HEAD, OPTIONS, PUT, PATH, DELETE, etc...) por el cual como Pentester, en una auditoría web, se es posible vulnerar y *acceder a funciones privilegiadas* (Broken Function Level Authentication) o también a *información sensible* (Broken Object Level Authentication). También aprendí cómo realizar ataques de Tokens, como por ejemplo los ataques de JWTs (JSON Web Tokens).
+#### Curso de **TCM Security**, dictado por el profesor *Alex Olsen*, en el cual profundicé mis conocimientos en el Pentesting Web mediante el hacking de APIs. A través de la manipulación de las APIs que utilizan las Aplicaciones Web, aprendí técnicas como el Fuzzing y técnicas de cambios en los distintos métodos de Requests (tales como GET, POST, HEAD, OPTIONS, PUT, PATCH, DELETE, etc...) por el cual como Pentester, en una auditoría web, se es posible vulnerar y *acceder a funciones privilegiadas* (Broken Function Level Authentication) o también a *información sensible* (Broken Object Level Authentication). También aprendí cómo realizar ataques de Tokens, como por ejemplo los ataques de JWTs (JSON Web Tokens).
 
 ![certificado-tcm-security-practical-api-hacking-mateo-gabriel-fumis](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/TCM-Security-Practical-API-Hacking-Mateo-Fumis_px.webp)
 
