@@ -925,12 +925,17 @@ $btn-mb: 0.5rem;
 #topbar-wrapper {
   height: $topbar-height;
   background-color: var(--topbar-bg);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 #topbar {
   /* icons */
   i {
-    color: #999999;
+    color: #ffffff;
+    font-size: 22px;
   }
 
   #breadcrumb {
