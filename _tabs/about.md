@@ -8,50 +8,79 @@ order: 4
 
 ## ¡Hola, soy Mateo! 👋👋
 
-🌐 Desde chico siempre tuve una pasión por la informática y las computadoras . 
+### Bienvenidos a esta sección en mi blog. Pero antes, una breve introducción...
 
-💻 Más adelante cuando terminé la secundaria comencé a estudiar programación . 
+🌐 Desde que era chico siempre tuve una pasión por la informática y las computadoras, luego más adelante cuando terminé mis estudios de nivel secundario comencé a estudiar programación y desarrollo web.
 
 📅 Fue en Octubre del 2022 cuando comencé a entrar en el mundo de la Ciberseguridad y el Hacking Ético 🕵️.
 
-Comencé estudiando todo lo que abarca el Pentesting de Aplicaciones Web; practicando la resolución de máquinas vulnerables en **Hack The Box**; realizando cursos online; y leyendo artículos de ciberseguridad y writeups.
+📚 Empecé estudiando todo lo que abarca el Pentesting de Aplicaciones Web; practicando la resolución de máquinas vulnerables en **Hack The Box**; realizando cursos online; y leyendo artículos de Ciberseguridad y Writeups. 
 
-Actualmente me dedico al Bug Bounty Hunting en las plataformas de **HackerOne** e **Intigriti**.
+👔 Finalmente, con el tiempo y la práctica decidí que el Pentesting de Aplicaciones Web es el área donde quiero especializarme.
+
+### 💻 Actualmente en 2024 me dedico al Bug Bounty Hunting en **HackerOne**.
 
 ❖ Perfil de HackerOne: [https://hackerone.com/hackermater](https://hackerone.com/hackermater){:target="_blank"}
 
-❖ Perfil de Intigriti: [https://app.intigriti.com/researcher/profile/xvim_hacker](https://app.intigriti.com/researcher/profile/xvim_hacker){:target="_blank"}
+----
+
+### En mi trabajo como Freelancer en HackerOne, utilizo el siguiente stack de herramientas:
+
+* **Reconnaissance**:
+  * **Subdomains**
+    * [Subfinder](https://github.com/projectdiscovery/subfinder){:target="_blank"}
+  * **Wayback Machine**
+    * [Waybackurls](https://github.com/tomnomnom/waybackurls){:target="_blank"}
+  * **IPs and Ports**
+    * [Censys.io](https://search.censys.io){:target="_blank"}
+    * [Nmap](https://nmap.org)
+  * **Crawl**
+    * [Katana](https://github.com/projectdiscovery/katana){:target="_blank"}
+    * [hakrawler](https://github.com/hakluke/hakrawler){:target="_blank"}
+  * **HTTP Toolkit**
+    * [httpx](https://github.com/projectdiscovery/httpx){:target="_blank"}
+  * **DNS Querys**
+    * [dnsx](https://github.com/projectdiscovery/dnsx){:target="_blank"}
+  * **JS Files**
+    * [xnLinkfinder](https://github.com/xnl-h4ck3r/xnLinkFinder){:target="_blank"}
+  * **Spider from Wayback Machine**:
+    * [Gau](https://github.com/lc/gau){:target="_blank"}
+* **Explotation**
+  * **Manual**
+    * [Burp Suite](https://portswigger.net/burp){:target="_blank"}
+  * **Out-of-Band (OOB)**
+    * [Interactsh](https://github.com/projectdiscovery/interactsh){:target="_blank"}
+  * **Automation**
+    * [Nuclei](https://github.com/projectdiscovery/nuclei){:target="_blank"}
+  * **XSS**
+    * [Dalfox](https://github.com/hahwul/dalfox){:target="_blank"}
+  * **Fuzzing**
+    * [FFUF](https://github.com/ffuf/ffuf){:target="_blank"}
+  * **Directories**
+    * [Feroxbuster](https://github.com/epi052/feroxbuster){:target="_blank"}
+    * [Gobuster](https://github.com/OJ/gobuster){:target="_blank"}
+  * **SQL Injection**
+    * [SQLmap](https://github.com/sqlmapproject/sqlmap){:target="_blank"}
+    * [Ghauri](https://github.com/r0oth3x49/ghauri){:target="_blank"}
+  * **SSTI**
+    * [SSTImap](https://github.com/vladko312/SSTImap){:target="_blank"}
+  * **WAF** Bypass
+    * [Hackvertor](https://github.com/portswigger/hackvertor){:target="_blank"} (Burp Extension)
+  * **HTTP/HTTPS Open Ports**
+    * [Httprobe](https://github.com/tomnomnom/httprobe){:target="_blank"}
+
+#### Firefox Extensions
+
+* **Wappalyzer** ([https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/){:target="_blank"})
+* **EditThisCookie** ([https://addons.mozilla.org/en-US/firefox/addon/edithiscookie/](https://addons.mozilla.org/en-US/firefox/addon/edithiscookie/){:target="_blank"})
+* **FoxyProxy Standard** ([https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/){:target="_blank"})
+* **User-Agent Switcher and Manager** ([https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/){:target="_blank"})
+* **ModHeader** ([https://addons.mozilla.org/en-US/firefox/addon/modheader-firefox/](https://addons.mozilla.org/en-US/firefox/addon/modheader-firefox/){:target="_blank"})
+* **Wayback Machine** ([https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new/](https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new/){:target="_blank"})
 
 ----
 
-### Principales Herramientas y Técnicas del Pentesting Web que mejor domino:
-
-*   Burp Suite
-*   OWASP ZAP (ZAP Proxy)
-*   Nmap
-*   Netcat
-*   cURL
-*   FFUF
-*   Gobuster
-*   SQLmap
-*   WPScan
-*   Cyberchef
-*   Subfinder
-*   HTTPx
-*   SQL Injection (SQLi)
-*   Cross-site Scripting (XSS)
-*   Server-side Request Forgery (SSRF)
-*   Insecure Direct Object Reference (IDOR)
-*   XML External Entity Injection (XXE)
-*   Local File Inclusion (LFI)
-*   Remote File Inclusion (RFI)
-*   Cross-site Request Forgery (CSRF)
-*   Server-side Template Injection (SSTI)
-*   APIs Fuzzing
-
-----
-
-# 🏆 Cursos y Certificaciones
+## 🏆 Lista de Cursos y Certificados que realicé hasta la fecha.
 
 ----
 
@@ -141,7 +170,9 @@ Actualmente me dedico al Bug Bounty Hunting en las plataformas de **HackerOne** 
 
 ----
 
-#### 📚💻 Actualmente sé programar principalmente Bash Scripting, Python y Javascript lo que me sirve a la hora de analizar código en busca de vulnerabilidades y crear algunos scripts sencillos cuando realizo pentesting.
+#### 📚💻 Actualmente me gusta programar principalmente en Bash Scripting y Python lo cual me sirve a la hora de analizar código en busca de vulnerabilidades y crear algunos scripts sencillos cuando realizo pentesting. 
+
+#### No obstante tengo en mente continuar aprendiendo programación, en específico el lenguaje Golang para luego crear scripts que automaticen la tarea del Pentesting Web y contribuir a la comunidad de Hackers y Pentesters en Github.
 
 ----
 
@@ -153,4 +184,10 @@ Actualmente me dedico al Bug Bounty Hunting en las plataformas de **HackerOne** 
 
 #### ❖ Github: [https://github.com/mateofumis](https://github.com/mateofumis){:target="_blank"}
 
+#### ❖ Perfil de HackerOne: [https://hackerone.com/hackermater](https://hackerone.com/hackermater){:target="_blank"}
+
 #### ❖ Descargar mi CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1n_EVJBn2ryvRCmrwAAYgYAm8Bgu8mysb){:target="_blank"}
+
+---
+
+### 📧 Contacto: [mateofumis1@gmail.com](mailto:mateofumis1@gmail.com)
