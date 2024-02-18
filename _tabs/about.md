@@ -192,6 +192,8 @@ order: 4
 
 #### ❖ Perfil de HackerOne: [https://hackerone.com/hackermater](https://hackerone.com/hackermater){:target="_blank"}
 
+#### ❖ Offensive Cybersecurity (by hackermater): [https://hackermater.gitbook.io](https://hackermater.gitbook.io){:target="_blank"}
+
 #### ❖ Descargar mi CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1n_EVJBn2ryvRCmrwAAYgYAm8Bgu8mysb){:target="_blank"}
 
 ---
