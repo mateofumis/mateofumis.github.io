@@ -45,6 +45,9 @@ order: 4
     * [xnLinkfinder](https://github.com/xnl-h4ck3r/xnLinkFinder){:target="_blank"}
   * **Spider from Wayback Machine**:
     * [Gau](https://github.com/lc/gau){:target="_blank"}
+  * **Cloud Enumeration** *(Buckets Discovery)*
+    * [cloud_enum](https://github.com/initstring/cloud_enum){:target="_blank"}
+    * [CloudHunter](https://github.com/belane/CloudHunter){:target="_blank"}
 * **Explotation**
   * **Manual**
     * [Burp Suite](https://portswigger.net/burp){:target="_blank"}
@@ -62,9 +65,12 @@ order: 4
   * **SQL Injection**
     * [SQLmap](https://github.com/sqlmapproject/sqlmap){:target="_blank"}
     * [Ghauri](https://github.com/r0oth3x49/ghauri){:target="_blank"}
+  * **NoSQL Injection**
+    * [NoSQLmap](https://github.com/codingo/NoSQLMap){:target="_blank"}
+    * [nosqli](https://github.com/Charlie-belmer/nosqli){:target="_blank"}
   * **SSTI**
     * [SSTImap](https://github.com/vladko312/SSTImap){:target="_blank"}
-  * **WAF** Bypass
+  * **WAF Bypass**
     * [Hackvertor](https://github.com/portswigger/hackvertor){:target="_blank"} (Burp Extension)
   * **HTTP/HTTPS Open Ports**
     * [Httprobe](https://github.com/tomnomnom/httprobe){:target="_blank"}
