@@ -31,7 +31,7 @@ order: 4
     * [Subfinder](https://github.com/projectdiscovery/subfinder){:target="_blank"}
   * **Wayback Machine**
     * [Waybackurls](https://github.com/tomnomnom/waybackurls){:target="_blank"}
-  * **IPs and Ports**
+  * **IPs and CDIRs**
     * [Censys.io](https://search.censys.io){:target="_blank"}
     * [Nmap](https://nmap.org)
   * **Crawl**
@@ -72,8 +72,8 @@ order: 4
     * [SSTImap](https://github.com/vladko312/SSTImap){:target="_blank"}
   * **WAF Bypass**
     * [Hackvertor](https://github.com/portswigger/hackvertor){:target="_blank"} (Burp Extension)
-  * **HTTP/HTTPS Open Ports**
-    * [Httprobe](https://github.com/tomnomnom/httprobe){:target="_blank"}
+  * **Open Ports Discovery**
+    * [naabu](https://github.com/projectdiscovery/naabu){:target="_blank"}
 
 #### Firefox Extensions
 
