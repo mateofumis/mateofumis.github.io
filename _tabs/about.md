@@ -39,6 +39,8 @@ order: 4
     * [hakrawler](https://github.com/hakluke/hakrawler){:target="_blank"}
   * **HTTP Toolkit**
     * [httpx](https://github.com/projectdiscovery/httpx){:target="_blank"}
+  * **Open Ports Discovery**
+    * [naabu](https://github.com/projectdiscovery/naabu){:target="_blank"}
   * **DNS Querys**
     * [dnsx](https://github.com/projectdiscovery/dnsx){:target="_blank"}
   * **JS Files**
@@ -65,15 +67,10 @@ order: 4
   * **SQL Injection**
     * [SQLmap](https://github.com/sqlmapproject/sqlmap){:target="_blank"}
     * [Ghauri](https://github.com/r0oth3x49/ghauri){:target="_blank"}
-  * **NoSQL Injection**
-    * [NoSQLmap](https://github.com/codingo/NoSQLMap){:target="_blank"}
-    * [nosqli](https://github.com/Charlie-belmer/nosqli){:target="_blank"}
   * **SSTI**
     * [SSTImap](https://github.com/vladko312/SSTImap){:target="_blank"}
   * **WAF Bypass**
     * [Hackvertor](https://github.com/portswigger/hackvertor){:target="_blank"} (Burp Extension)
-  * **Open Ports Discovery**
-    * [naabu](https://github.com/projectdiscovery/naabu){:target="_blank"}
 
 #### Firefox Extensions
 
