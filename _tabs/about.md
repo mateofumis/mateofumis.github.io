@@ -31,7 +31,7 @@ order: 4
     * [Subfinder](https://github.com/projectdiscovery/subfinder){:target="_blank"}
   * **Wayback Machine**
     * [Waybackurls](https://github.com/tomnomnom/waybackurls){:target="_blank"}
-  * **IPs and CDIRs**
+  * **IPs and CIDRs**
     * [Censys.io](https://search.censys.io){:target="_blank"}
     * [Nmap](https://nmap.org)
   * **Crawl**
@@ -41,9 +41,9 @@ order: 4
     * [httpx](https://github.com/projectdiscovery/httpx){:target="_blank"}
   * **Open Ports Discovery**
     * [naabu](https://github.com/projectdiscovery/naabu){:target="_blank"}
-  * **DNS Querys**
+  * **DNS Queries**
     * [dnsx](https://github.com/projectdiscovery/dnsx){:target="_blank"}
-  * **JS Files**
+  * **Parameter Finder**
     * [xnLinkfinder](https://github.com/xnl-h4ck3r/xnLinkFinder){:target="_blank"}
   * **Spider from Wayback Machine**:
     * [Gau](https://github.com/lc/gau){:target="_blank"}
@@ -58,6 +58,7 @@ order: 4
   * **Automation**
     * [Nuclei](https://github.com/projectdiscovery/nuclei){:target="_blank"}
   * **XSS**
+    * [XSS Cheatseet](https://github.com/portswigger/xss-cheatsheet){:target="_blank"} (Burp Extension)
     * [Dalfox](https://github.com/hahwul/dalfox){:target="_blank"}
   * **Fuzzing**
     * [FFUF](https://github.com/ffuf/ffuf){:target="_blank"}
@@ -75,7 +76,7 @@ order: 4
 #### Firefox Extensions
 
 * **Wappalyzer** ([https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/){:target="_blank"})
-* **EditThisCookie** ([https://addons.mozilla.org/en-US/firefox/addon/edithiscookie/](https://addons.mozilla.org/en-US/firefox/addon/edithiscookie/){:target="_blank"})
+* **Cookie-Editor** ([https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/){:target="_blank"})
 * **FoxyProxy Standard** ([https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/){:target="_blank"})
 * **User-Agent Switcher and Manager** ([https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/){:target="_blank"})
 * **ModHeader** ([https://addons.mozilla.org/en-US/firefox/addon/modheader-firefox/](https://addons.mozilla.org/en-US/firefox/addon/modheader-firefox/){:target="_blank"})
