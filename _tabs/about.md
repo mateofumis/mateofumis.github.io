@@ -33,7 +33,7 @@ order: 4
     * [Waybackurls](https://github.com/tomnomnom/waybackurls){:target="_blank"}
   * **IPs and CIDRs**
     * [Censys.io](https://search.censys.io){:target="_blank"}
-    * [Nmap](https://nmap.org)
+    * [Nmap](https://nmap.org){:target="_blank"}
   * **Crawl**
     * [Katana](https://github.com/projectdiscovery/katana){:target="_blank"}
     * [hakrawler](https://github.com/hakluke/hakrawler){:target="_blank"}
@@ -59,6 +59,7 @@ order: 4
     * [Nuclei](https://github.com/projectdiscovery/nuclei){:target="_blank"}
   * **XSS**
     * [XSS Cheatseet](https://github.com/portswigger/xss-cheatsheet){:target="_blank"} (Burp Extension)
+    * [Gxss](https://github.com/KathanP19/Gxss){:target="_blank"}
     * [Dalfox](https://github.com/hahwul/dalfox){:target="_blank"}
   * **Fuzzing**
     * [FFUF](https://github.com/ffuf/ffuf){:target="_blank"}
@@ -72,6 +73,8 @@ order: 4
     * [SSTImap](https://github.com/vladko312/SSTImap){:target="_blank"}
   * **WAF Bypass**
     * [Hackvertor](https://github.com/portswigger/hackvertor){:target="_blank"} (Burp Extension)
+  * **401/403 Bypass**
+    * [Bypass Url Parser](https://github.com/laluka/bypass-url-parser){:target="_blank"}
 
 #### Firefox Extensions
 
