@@ -10,17 +10,21 @@ order: 4
 
 ### Bienvenidos a esta sección en mi blog. Pero antes, una breve introducción...
 
-🌐 Desde que era chico siempre tuve una pasión por la informática y las computadoras, luego más adelante cuando terminé mis estudios de nivel secundario comencé a estudiar programación y desarrollo web.
+🌐 Desde que era chico siempre tuve una pasión por la informática y las computadoras y luego cuando terminé mis estudios de nivel secundario comencé a estudiar programación y programación orientado al desarrollo web.
 
 📅 Fue en Octubre del 2022 cuando comencé a entrar en el mundo de la Ciberseguridad y el Hacking Ético 🕵️.
 
-📚 Empecé estudiando todo lo que abarca el Pentesting de Aplicaciones Web; practicando la resolución de máquinas vulnerables en **Hack The Box**; realizando cursos online; y leyendo artículos de Ciberseguridad y Writeups. 
+📚 Empecé estudiando todo lo que abarca el Pentesting de Aplicaciones Web, practicando la resolución de máquinas vulnerables en **Hack The Box**, realizando cursos online y leyendo artículos de Ciberseguridad y Writeups.
 
 👔 Finalmente, con el tiempo y la práctica decidí que el Pentesting de Aplicaciones Web es el área donde quiero especializarme.
 
-### 💻 Actualmente en 2024 me dedico al Bug Bounty Hunting en **HackerOne**.
+### 💻 Actualmente en 2024 me dedico al Bug Bounty Hunting en **HackerOne, Intigriti y Bugcrowd**.
 
 ❖ Perfil de HackerOne: [https://hackerone.com/hackermater](https://hackerone.com/hackermater){:target="_blank"}
+
+❖ Perfil de Bugcrowd: [https://bugcrowd.com/hackermater](https://bugcrowd.com/hackermater){:target="_blank"}
+
+❖ Perfil de Intigriti: [https://app.intigriti.com/profile/xvim_hacker](https://app.intigriti.com/profile/xvim_hacker){:target="_blank"}
 
 ----
 
@@ -33,6 +37,7 @@ order: 4
     * [Waybackurls](https://github.com/tomnomnom/waybackurls){:target="_blank"}
   * **IPs and CIDRs**
     * [Censys.io](https://search.censys.io){:target="_blank"}
+    * [Shodan.io](https://www.shodan.io)
     * [Nmap](https://nmap.org){:target="_blank"}
   * **Crawl**
     * [Katana](https://github.com/projectdiscovery/katana){:target="_blank"}
@@ -183,20 +188,25 @@ order: 4
 
 ----
 
-## 🌐 Links útiles:
+## 🌐 Enlaces útiles:
 
-#### ❖ LinkedIn: [https://www.linkedin.com/in/mateo-gabriel-fumis](https://www.linkedin.com/in/mateo-gabriel-fumis){:target="_blank"}
+❖ LinkedIn: [https://www.linkedin.com/in/mateo-gabriel-fumis](https://www.linkedin.com/in/mateo-gabriel-fumis){:target="_blank"}
 
-#### ❖ Perfil de Hack The Box: [https://app.hackthebox.com/profile/1223814](https://app.hackthebox.com/profile/1223814){:target="_blank"}
+❖ Perfil de Hack The Box: [https://app.hackthebox.com/profile/1223814](https://app.hackthebox.com/profile/1223814){:target="_blank"}
 
-#### ❖ Github: [https://github.com/mateofumis](https://github.com/mateofumis){:target="_blank"}
+❖ Github: [https://github.com/mateofumis](https://github.com/mateofumis){:target="_blank"}
 
-#### ❖ Perfil de HackerOne: [https://hackerone.com/hackermater](https://hackerone.com/hackermater){:target="_blank"}
+❖ Perfil de HackerOne: [https://hackerone.com/hackermater](https://hackerone.com/hackermater){:target="_blank"}
 
-#### ❖ Offensive Cybersecurity (by hackermater): [https://hackermater.gitbook.io](https://hackermater.gitbook.io){:target="_blank"}
+❖ Perfil de Bugcrowd: [https://bugcrowd.com/hackermater](https://bugcrowd.com/hackermater){:target="_blank"}
 
-#### ❖ Descargar mi CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1S_2j44T9R3V09LWtxw6XO0biz5GHQ8oM/){:target="_blank"}
+❖ Perfil de Intigriti: [https://app.intigriti.com/profile/xvim_hacker](https://app.intigriti.com/profile/xvim_hacker){:target="_blank"}
+
+❖ Offensive Cybersecurity (by hackermater): [https://hackermater.gitbook.io](https://hackermater.gitbook.io){:target="_blank"}
 
 ---
 
-### 📧 Contacto: [mateofumis1@gmail.com](mailto:mateofumis1@gmail.com)
+### 📧 Email de Contacto: [mateofumis1@gmail.com](mailto:mateofumis1@gmail.com)
+
+### 📝 Descargar mi CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1S_2j44T9R3V09LWtxw6XO0biz5GHQ8oM/){:target="_blank"}
+
