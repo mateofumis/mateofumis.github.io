@@ -195,7 +195,7 @@ order: 4
 
 #### ❖ Offensive Cybersecurity (by hackermater): [https://hackermater.gitbook.io](https://hackermater.gitbook.io){:target="_blank"}
 
-#### ❖ Descargar mi CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1n_EVJBn2ryvRCmrwAAYgYAm8Bgu8mysb){:target="_blank"}
+#### ❖ Descargar mi CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1S_2j44T9R3V09LWtxw6XO0biz5GHQ8oM/){:target="_blank"}
 
 ---
 
