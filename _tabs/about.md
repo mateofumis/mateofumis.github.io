@@ -3,7 +3,7 @@ title: "Acerca de mí"
 permalink: "/about/"
 icon: fas fa-info-circle
 layout: page
-order: 4
+order: 5
 ---
 
 ## ¡Hola, soy Mateo! 👋👋
