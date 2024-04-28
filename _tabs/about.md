@@ -28,58 +28,48 @@ order: 4
 
 ----
 
-### En mi trabajo como Freelancer en HackerOne, utilizo el siguiente stack de herramientas:
+### En mi trabajo de Freelancer como Bug Bounty Hunter utilizo el siguiente stack de herramientas:
 
 * **Reconnaissance**:
-  * **Subdomains**
-    * [Subfinder](https://github.com/projectdiscovery/subfinder){:target="_blank"}
-  * **Wayback Machine**
-    * [Waybackurls](https://github.com/tomnomnom/waybackurls){:target="_blank"}
-  * **IPs and CIDRs**
+  * **Subdomains**: [Subfinder](https://github.com/projectdiscovery/subfinder){:target="_blank"}
+  * **Wayback Machine**: [Waybackurls](https://github.com/tomnomnom/waybackurls){:target="_blank"}
+  * **IPs and CIDRs**: 
     * [Censys.io](https://search.censys.io){:target="_blank"}
-    * [Shodan.io](https://www.shodan.io)
     * [Nmap](https://nmap.org){:target="_blank"}
-  * **Crawl**
-    * [Katana](https://github.com/projectdiscovery/katana){:target="_blank"}
+  * **Crawl**: 
+    * [Katana](https://github.com/projectdiscovery/katana){:target="_blank"} 
     * [hakrawler](https://github.com/hakluke/hakrawler){:target="_blank"}
-  * **HTTP Toolkit**
-    * [httpx](https://github.com/projectdiscovery/httpx){:target="_blank"}
-  * **Open Ports Discovery**
-    * [naabu](https://github.com/projectdiscovery/naabu){:target="_blank"}
-  * **DNS Queries**
-    * [dnsx](https://github.com/projectdiscovery/dnsx){:target="_blank"}
-  * **Parameter Finder**
+  * **HTTP Toolkit**: [httpx](https://github.com/projectdiscovery/httpx){:target="_blank"}
+  * **Open Ports Discovery**: [naabu](https://github.com/projectdiscovery/naabu){:target="_blank"}
+  * **DNS Queries**: [dnsx](https://github.com/projectdiscovery/dnsx){:target="_blank"}
+  * **Parameter Finder**: 
     * [xnLinkfinder](https://github.com/xnl-h4ck3r/xnLinkFinder){:target="_blank"}
-  * **Spider from Wayback Machine**:
-    * [Gau](https://github.com/lc/gau){:target="_blank"}
-  * **Cloud Enumeration** *(Buckets Discovery)*
-    * [cloud_enum](https://github.com/initstring/cloud_enum){:target="_blank"}
+    * [Arjun](https://github.com/s0md3v/Arjun){:target="_blank"}
+  * **Spider from Wayback Machine**: [Gau](https://github.com/lc/gau){:target="_blank"}
+  * **Cloud Buckets Discovery**: 
+    * [cloud_enum](https://github.com/initstring/cloud_enum){:target="_blank"} 
     * [CloudHunter](https://github.com/belane/CloudHunter){:target="_blank"}
 * **Explotation**
-  * **Manual**
-    * [Burp Suite](https://portswigger.net/burp){:target="_blank"}
-  * **Out-of-Band (OOB)**
-    * [Interactsh](https://github.com/projectdiscovery/interactsh){:target="_blank"}
-  * **Automation**
-    * [Nuclei](https://github.com/projectdiscovery/nuclei){:target="_blank"}
-  * **XSS**
-    * [XSS Cheatseet](https://github.com/portswigger/xss-cheatsheet){:target="_blank"} (Burp Extension)
-    * [Gxss](https://github.com/KathanP19/Gxss){:target="_blank"}
+  * **Manual**: [Burp Suite](https://portswigger.net/burp){:target="_blank"}
+  * **Out-of-Band (OOB)**: [Interactsh](https://github.com/projectdiscovery/interactsh){:target="_blank"}
+  * **Automation**: [Nuclei](https://github.com/projectdiscovery/nuclei){:target="_blank"}
+  * **XSS**: 
+    * [XSS Cheatsheet](https://github.com/portswigger/xss-cheatsheet){:target="_blank"} (Burp Extension) 
+    * [Gxss](https://github.com/KathanP19/Gxss){:target="_blank"} 
     * [Dalfox](https://github.com/hahwul/dalfox){:target="_blank"}
-  * **Fuzzing**
-    * [FFUF](https://github.com/ffuf/ffuf){:target="_blank"}
-  * **Directories**
-    * [Feroxbuster](https://github.com/epi052/feroxbuster){:target="_blank"}
+  * **Fuzzing**: [FFUF](https://github.com/ffuf/ffuf){:target="_blank"}
+  * **Directories**: 
+    * [Feroxbuster](https://github.com/epi052/feroxbuster){:target="_blank"} 
     * [Gobuster](https://github.com/OJ/gobuster){:target="_blank"}
-  * **SQL Injection**
-    * [SQLmap](https://github.com/sqlmapproject/sqlmap){:target="_blank"}
+  * **SQL Injection**: 
+    * [SQLmap](https://github.com/sqlmapproject/sqlmap){:target="_blank"} 
     * [Ghauri](https://github.com/r0oth3x49/ghauri){:target="_blank"}
-  * **SSTI**
-    * [SSTImap](https://github.com/vladko312/SSTImap){:target="_blank"}
-  * **WAF Bypass**
-    * [Hackvertor](https://github.com/portswigger/hackvertor){:target="_blank"} (Burp Extension)
-  * **401/403 Bypass**
-    * [Bypass Url Parser](https://github.com/laluka/bypass-url-parser){:target="_blank"}
+  * **SSTI**: [SSTImap](https://github.com/vladko312/SSTImap){:target="_blank"}
+  * **WAF Bypass**: [Hackvertor](https://github.com/portswigger/hackvertor){:target="_blank"} (Burp Extension)
+  * **401/403 Bypass**: [Bypass Url Parser](https://github.com/laluka/bypass-url-parser){:target="_blank"}
+  * **JWT (JSON Web Tokens)**:
+    * [JWT Editor](https://github.com/portswigger/jwt-editor){:target="_blank"} (Burp Extension)
+    * [jwt_tool.py](https://github.com/ticarpi/jwt_tool){:target="_blank"}
 
 #### Firefox Extensions
 
@@ -89,6 +79,7 @@ order: 4
 * **User-Agent Switcher and Manager** ([https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/){:target="_blank"})
 * **ModHeader** ([https://addons.mozilla.org/en-US/firefox/addon/modheader-firefox/](https://addons.mozilla.org/en-US/firefox/addon/modheader-firefox/){:target="_blank"})
 * **Wayback Machine** ([https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new/](https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new/){:target="_blank"})
+* **Firefox Multi-Account Containers** ([https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/){:target="_blank"})
 
 ----
 
@@ -192,6 +183,8 @@ order: 4
 
 ❖ LinkedIn: [https://www.linkedin.com/in/mateo-gabriel-fumis](https://www.linkedin.com/in/mateo-gabriel-fumis){:target="_blank"}
 
+❖ Offensive Cybersecurity (by hackermater): [https://hackermater.gitbook.io](https://hackermater.gitbook.io){:target="_blank"}
+
 ❖ Perfil de Hack The Box: [https://app.hackthebox.com/profile/1223814](https://app.hackthebox.com/profile/1223814){:target="_blank"}
 
 ❖ Github: [https://github.com/mateofumis](https://github.com/mateofumis){:target="_blank"}
@@ -201,8 +194,6 @@ order: 4
 ❖ Perfil de Bugcrowd: [https://bugcrowd.com/hackermater](https://bugcrowd.com/hackermater){:target="_blank"}
 
 ❖ Perfil de Intigriti: [https://app.intigriti.com/profile/xvim_hacker](https://app.intigriti.com/profile/xvim_hacker){:target="_blank"}
-
-❖ Offensive Cybersecurity (by hackermater): [https://hackermater.gitbook.io](https://hackermater.gitbook.io){:target="_blank"}
 
 ---
 
