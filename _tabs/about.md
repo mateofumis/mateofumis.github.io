@@ -199,5 +199,5 @@ order: 5
 
 ### 📧 Email de Contacto: [mateofumis1@gmail.com](mailto:mateofumis1@gmail.com)
 
-### 📝 Descargar mi CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1YsAjYqI5a51RPzUs1JbY0qhcGUZtBAWQ/){:target="_blank"}
+### 📝 Descargar mi CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1LKMvFKUMVzcGnutn-lSi2OPOVbnL4qPv/){:target="_blank"}
 
