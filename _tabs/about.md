@@ -1,34 +1,34 @@
 ---
-title: "Acerca de mí"
+title: "About me"
 permalink: "/about/"
 icon: fas fa-info-circle
 layout: page
 order: 5
 ---
 
-## ¡Hola, soy Mateo! 👋👋
+## ¡Hi, I'm Mateo! 👋👋
 
-### Bienvenidos a esta sección en mi blog. Pero antes, una breve introducción...
+### Welcome to this section in my blog. But before, an intrudiction in brief...
 
-🌐 Desde que era chico siempre tuve una pasión por la informática y las computadoras y luego cuando terminé mis estudios de nivel secundario comencé a estudiar programación y programación orientado al desarrollo web.
+🌐 Since child I always had a passion for computing and technology. After finish my high school degree, I started to study coding and Web Development.
 
-📅 Fue en Octubre del 2022 cuando comencé a entrar en el mundo de la Ciberseguridad y el Hacking Ético 🕵️.
+📅 On October, 2022 was when I started entering the world of Cybersecurity and Ethical Hacking 🕵️.
 
-📚 Empecé estudiando todo lo que abarca el Pentesting de Aplicaciones Web, practicando la resolución de máquinas vulnerables en **Hack The Box**, realizando cursos online y leyendo artículos de Ciberseguridad y Writeups.
+📚 I started by studying everything that encompasses Web Application Pentesting, practicing vulnerable machine resolution at **Hack The Box**, taking online courses and reading Cybersecurity articles and Writeups.
 
-👔 Finalmente, con el tiempo y la práctica decidí que el Pentesting de Aplicaciones Web es el área donde quiero especializarme.
+👔 Eventually, with time and practice I decided that Web Application Pentesting is the area where I want to specialize.
 
-### 💻 Actualmente en 2024 me dedico al Bug Bounty Hunting en **HackerOne, Intigriti y Bugcrowd**.
+### 💻 Currently on 2024 I spend my time as Bug Bounty Hunter on **HackerOne, Intigriti and Bugcrowd**.
 
-❖ Perfil de HackerOne: [https://hackerone.com/hackermater](https://hackerone.com/hackermater){:target="_blank"}
+❖ HackerOne Profile: [https://hackerone.com/hackermater](https://hackerone.com/hackermater){:target="_blank"}
 
-❖ Perfil de Bugcrowd: [https://bugcrowd.com/hackermater](https://bugcrowd.com/hackermater){:target="_blank"}
+❖ Bugcrowd Profile: [https://bugcrowd.com/hackermater](https://bugcrowd.com/hackermater){:target="_blank"}
 
-❖ Perfil de Intigriti: [https://app.intigriti.com/profile/xvim_hacker](https://app.intigriti.com/profile/xvim_hacker){:target="_blank"}
+❖ Intigriti Profile: [https://app.intigriti.com/profile/xvim_hacker](https://app.intigriti.com/profile/xvim_hacker){:target="_blank"}
 
 ----
 
-### En mi trabajo de Freelancer como Bug Bounty Hunter utilizo el siguiente stack de herramientas:
+### Here is a list of my favorites tools for Bug Bounty Hunting, which I highly recommend:
 
 * **Reconnaissance**:
   * **Subdomains**: [Subfinder](https://github.com/projectdiscovery/subfinder){:target="_blank"}
@@ -36,16 +36,23 @@ order: 5
   * **IPs and CIDRs**: 
     * [Censys.io](https://search.censys.io){:target="_blank"}
     * [Nmap](https://nmap.org){:target="_blank"}
+    * [Shodan](https://www.shodan.io){:target="_blank"}
   * **Crawl**: 
     * [Katana](https://github.com/projectdiscovery/katana){:target="_blank"} 
     * [hakrawler](https://github.com/hakluke/hakrawler){:target="_blank"}
-  * **HTTP Toolkit**: [httpx](https://github.com/projectdiscovery/httpx){:target="_blank"}
+  * **HTTP Toolkit**:
+    * [httpx](https://github.com/projectdiscovery/httpx){:target="_blank"}
+    * [curl](https://github.com/curl/curl){:target="_blank"}
   * **Open Ports Discovery**: [naabu](https://github.com/projectdiscovery/naabu){:target="_blank"}
-  * **DNS Queries**: [dnsx](https://github.com/projectdiscovery/dnsx){:target="_blank"}
+  * **DNS Queries**:
+    * [dnsx](https://github.com/projectdiscovery/dnsx){:target="_blank"}
+    * [dig](https://gitlab.isc.org/isc-projects/bind9/-/tree/main/bin/dig){:target="_blank"}
   * **Parameter Finder**: 
     * [xnLinkfinder](https://github.com/xnl-h4ck3r/xnLinkFinder){:target="_blank"}
     * [Arjun](https://github.com/s0md3v/Arjun){:target="_blank"}
-  * **Spider from Wayback Machine**: [Gau](https://github.com/lc/gau){:target="_blank"}
+  * **Passive Crawl**:
+    * [gau](https://github.com/lc/gau){:target="_blank"}
+    * [waybackurls](https://github.com/tomnomnom/waybackurls){:target="_blank"}
   * **Cloud Buckets Discovery**: 
     * [cloud_enum](https://github.com/initstring/cloud_enum){:target="_blank"} 
     * [CloudHunter](https://github.com/belane/CloudHunter){:target="_blank"}
@@ -83,121 +90,127 @@ order: 5
 
 ----
 
-## 🏆 Lista de Cursos y Certificados que realicé hasta la fecha.
+### 🏆 Courses and Certifications
 
 ----
 
-## Mobile Application Penetration Testing
+#### Mobile Application Penetration Testing
 
-#### Curso de **TCM Security** sobre Pentesting Mobile. En el mismo aprendí a realizar pruebas de penetración en aplicaciones móviles realizado tanto el análisis estático como el análisis dinámico. Con herramientas como jadx-gui, Apktool, Objection, Frida, Burp Suite y Android Studio, este curso abordó de una forma completa las fases del pentesting mobile.
+**TCM Security** course on Mobile Pentesting. In this course I learned how to perform penetration testing on mobile applications by performing both static and dynamic analysis. With tools such as jadx-gui, Apktool, Objection, Frida, Burp Suite and Android Studio, this course covered in a complete way the phases of mobile pentesting.
 
 ![certificado-mobile-application-penetration-testing](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/TCM-Security-Mobile-Application-Penetration-Testing-Mateo-Fumis_px.webp)
 
 ----
 
-## Ingeniería Social para IT
+#### Ingeniería Social para IT
 
-#### Curso de LinkedIn Learning el cual abordó de una forma completa y exhaustiva los aspectos esenciales tanto teóricos como con ejemplos reales, el arte de cómo los **Ingenieros Sociales** llevan a cabo su labor en la Ciberseguridad y el Red Teaming, con el objetivo de lograr persuadir a un sujeto y lograr obtener información confidencial, o que éste lleve a cabo una acción deseada por el Ingeniero Social.
-##### ❖ [Enlace del Certificado](https://www.linkedin.com/learning/certificates/6e88f9135fc13431dc8336cb2d937bf80f6a851e642b0e882af47e3c8546fe74){:target="_blank"}
+LinkedIn Learning course which covered in a complete and exhaustive way the essential aspects, both theoretical and with real examples, the art of how the **Social Engineers** carry out their work in Cybersecurity and Red Teaming, with the objective of persuading a subject and obtaining confidential information, or that this one carries out an action desired by the Social Engineer.
+
+❖ [Credential URL](https://www.linkedin.com/learning/certificates/6e88f9135fc13431dc8336cb2d937bf80f6a851e642b0e882af47e3c8546fe74){:target="_blank"}
 
 ![certificado-ingenieria-social-para-it](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/Ingenier%C3%ADa-Social-para-IT-Mateo-Fumis_px.webp)
 
 ----
 
-## "Hacking WEP/WPA/WPA2 Wi-Fi Networks Using Kali Linux 2.0"
+#### "Hacking WEP/WPA/WPA2 Wi-Fi Networks Using Kali Linux 2.0"
 
-#### Curso de EC-Council donde aprendí a realizar ataques hacia redes inalámbricas: WEP, WPA y WPA2. Mediante el uso de la suite de Aircrack-ng, Airgeddon, Wifite, Reaver, Crunch, Hashcat, John The Ripper y otras herramientas más logré comprender la metodología de ataques a fuerza bruta (Rainbow Tables) o mediante Ingeniería Social (Ataque Evil-Twin). Además de los ataques por Pin WPS con herramientas tales como Reaver.
-##### ❖ [Enlace del Certificado](https://codered.eccouncil.org/certificate/ca1a1062-2c23-4d79-840d-d760a417e8b7){:target="_blank"}
+**EC-Council** course where I learned how to perform attacks on wireless networks: WEP, WPA and WPA2. Through the use of the Aircrack-ng suite, Airgeddon, Wifite, Reaver, Crunch, Hashcat, John The Ripper and other tools I managed to understand the methodology of brute force attacks (Rainbow Tables) or through Social Engineering (Evil-Twin Attack). In addition to Pin WPS attacks with tools such as Reaver.
+
+❖ [Credential URL](https://codered.eccouncil.org/certificate/ca1a1062-2c23-4d79-840d-d760a417e8b7){:target="_blank"}
 
 ![certificado-ec-council-hacking-wireless-networks](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/Hacking-Wi-Fi-Networks-Kali-Linux-Mateo-Fumis_px.webp)
 
 ----
 
-## "Advanced Open Source Intelligence and Privacy"
+#### "Advanced Open Source Intelligence and Privacy"
 
-#### Curso de **EC-Council** en el cual aprendí las técnicas del OSINT, el uso de herramientas tales como Recon-ng, Sherlock, Spiderfoot, theHarvester, Sublist3r y dnstwist. También me capacité para realizar investigaciones del objetivo tanto a través Google usando Google Dorks, como en la Dark Web a través de la red Tor. Ademas de eso aprendí cómo utilizar los motores de búsqueda avanzados para recopilar información a partir de un nombre de dominio o una simple dirección IP, como podría ser el ejemplo de "Censys.io" o los servicios de "Shodan.io".
-##### ❖ [Enlace del Certificado](https://codered.eccouncil.org/certificate/58908836-9346-4691-b872-2cf15a980860){:target="_blank"}
+**EC-Council** course in which I learned OSINT techniques, the use of tools such as Recon-ng, Sherlock, Spiderfoot, theHarvester, Sublist3r and dnstwist. I was also trained to conduct target investigations both through Google using Google Dorks, and on the Dark Web through the Tor network. In addition to that I learned how to use advanced search engines to gather information from a domain name or a simple IP address, as could be the example of "Censys.io" or the services of "Shodan.io".
+
+❖ [Credential URL](https://codered.eccouncil.org/certificate/58908836-9346-4691-b872-2cf15a980860){:target="_blank"}
 
 ![certificado-advanced-open-source-intelligence-and-privacy](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/Advanced-Open-Source-Intelligence-and-Privacy-Mateo-Fumis_px.webp)
 
 ----
 
-## "Practical Ethical Hacking - The Complete Course"
+#### "Practical Ethical Hacking - The Complete Course"
 
-#### Curso dictado por el actual CEO de **TCM Security**, Heath Adams, el cual abordó una introducción completa desde las bases del Ethical Hacking, así tanto como la Recopilación de Información mediante el OSINT (Open Source Intelligence), hasta el Pentesting de Active Directory, Pentesting Web y también de redes Wireless. En el curso aprendí también a llevar a cabo un Buffer Overflow y a tomar notas durante, antes y después de una auditoría para luego generar un reporte profesional para el cliente.
+Course taught by the current CEO of **TCM Security**, Heath Adams, which covered a complete introduction from the basics of Ethical Hacking, as well as Information Gathering using OSINT (Open Source Intelligence), to Active Directory Pentesting, Web Pentesting and also Wireless Network Pentesting. In the course I also learned how to perform a Buffer Overflow and how to take notes during, before and after an audit and then generate a professional report for the client.
 
 ![certificado-tcm-security-practical-ethical-hacking-the-compelte-course-mateo-gabriel-fumis](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/TCM-Security-Practical-Ethical-Hacking-Mateo-Fumis_px.webp)
 
 ----
 
-## "Practical API Hacking"
+#### "Practical API Hacking"
 
-#### Curso de **TCM Security**, dictado por el profesor *Alex Olsen*, en el cual profundicé mis conocimientos en el Pentesting Web mediante el hacking de APIs. A través de la manipulación de las APIs que utilizan las Aplicaciones Web, aprendí técnicas como el Fuzzing y técnicas de cambios en los distintos métodos de Requests (tales como GET, POST, HEAD, OPTIONS, PUT, PATCH, DELETE, etc...) por el cual como Pentester, en una auditoría web, se es posible vulnerar y *acceder a funciones privilegiadas* (Broken Function Level Authorization) o también a *información sensible* (Sensitive Data Exposure). También aprendí cómo realizar ataques de Tokens, como por ejemplo los ataques de JWTs (JSON Web Tokens).
+Course of **TCM Security**, taught by Professor *Alex Olsen*, in which I deepened my knowledge in Web Pentesting by hacking APIs. Through the manipulation of the APIs used by Web Applications, I learned techniques such as Fuzzing and techniques of changes in the various methods of Requests (such as GET, POST, HEAD, OPTIONS, PUT, PATCH, DELETE, etc ...) by which as Pentester, in a web audit, it is possible to breach and *access privileged functions* (Broken Function Level Authorization) or *sensitive information* (Sensitive Data Exposure). I also learned how to perform token attacks, such as JWTs attacks (JSON Web Tokens).
 
 ![certificado-tcm-security-practical-api-hacking-mateo-gabriel-fumis](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/TCM-Security-Practical-API-Hacking-Mateo-Fumis_px.webp)
 
 ----
 
-## "Practical Web Application Security and Testing"
+#### "Practical Web Application Security and Testing"
 
-#### Curso de **TCM Security**, dictado por el profesor *Michael Taggart*, el cual tuvo una duración de 9 horas en total. En el curso aprendí en profundidad cómo realizar auditorías hacia aplicaciones web, incluyendo el uso de OWASP ZAP y la redacción de reportes. También aprendí cómo funcionan las aplicaciones web tanto del lado del cliente como del servidor y cómo se comunican a través del protocolo HTTP.
+Course of **TCM Security**, taught by Professor *Michael Taggart*, lasted 9 hours in total. In the course I learned in depth how to audit web applications, including the use of OWASP ZAP and report writing. I also learned how web applications work on both the client and server side and how they communicate through the HTTP protocol.
 
 ![certificado-tcm-security-pwst-mateo-gabriel-fumis](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/TCM-Security-Practical-Web-Application-Security-and-Testing-Mateo-Fumis_px.webp)
 
 ----
 
-## "Ethical Hacking Essentials"
+#### "Ethical Hacking Essentials"
 
-#### Curso de **EC-Council** _"Ethical Hacking Essentials"_. En el mismo abordé los temas principales y esenciales del Ethical Hacking y cómo los hackers (éticos y no éticos) logran penetrar sistemas, utilizando diferentes técnicas y métodos tales como la ingeniería social o los ataques a redes inalámbricas; también los ataques hacia servicios en la nube y la creación y uso de malware tal como botnets, spyware, troyanos, rootkits, o gusanos. También aprendí cuáles son las contramedidas para mitigar estos ataques y poder asi proteger la empresa y los servicios que brinda.
-##### ❖ [Enlace del Certificado](https://codered.eccouncil.org/certificate/58f1336c-d4e6-480e-9fde-29bf315c38cf){:target="_blank"}
+Course of **EC-Council** _"Ethical Hacking Essentials"_. In this course I covered the main and essential topics of Ethical Hacking and how hackers (ethical and unethical) manage to penetrate systems, using different techniques and methods such as social engineering or attacks on wireless networks; also attacks on cloud services and the creation and use of malware such as botnets, spyware, trojans, rootkits, or worms. I also learned which are the countermeasures to mitigate these attacks in order to protect the company and the services it provides.
+
+❖ [Credential URL](https://codered.eccouncil.org/certificate/58f1336c-d4e6-480e-9fde-29bf315c38cf){:target="_blank"}
 
 ![certificado-ethical-hacking-essentials](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/Ethical-Hacking-Essentials-Mateo-Fumis_px.webp)
 
 ----
 
-## "Pentesting Web. Prácticas de un Ethical Hacker Profesional."
+#### "Pentesting Web. Prácticas de un Ethical Hacker Profesional."
 
-#### Curso en *Udemy* sobre Pentesting de Aplicaciones Web: _"Pentesting Web. Prácticas de un Ethical Hacker Profesional."_ dictado por el profesor Álvaro Chirou. En el mismo conocí las Top 10 Vulnerabilidades de las Aplicaciones Web, o también llamado [OWASP Top 10](https://owasp.org/www-project-top-ten/){:target="_blank"} y a utilizar varias herramientas y técnicas del pentesting de manera profesional.
-##### ❖ [Enlace del Certificado](https://www.udemy.com/certificate/UC-aa8c439f-9895-43a1-880a-4125e14841b8/){:target="_blank"}
+Course of Udemy about **Web Application Pentesting**: _"Pentesting Web. Practices of a Professional Ethical Hacker."_ dictated by Professor Alvaro Chirou. In it I learned the Top 10 Vulnerabilities of Web Applications, or also called [OWASP Top 10](https://owasp.org/www-project-top-ten/){:target="_blank"} and how to use several pentesting tools and techniques in a professional way.
+
+❖ [Credential URL](https://www.udemy.com/certificate/UC-aa8c439f-9895-43a1-880a-4125e14841b8/){:target="_blank"}
 
 ![certificado-pentesting-web](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/Pentesting-Web-Ethical-Hacker-Profesional-Mateo-Fumis_px.webp)
 
 ----
 
-## "Introducción a la Seguridad Cibernética"
+#### "Introducción a la Seguridad Cibernética"
 
-#### En 2021 realicé un curso de la empresa **Cisco**, sobre la Ciberseguridad: _"Introducción a la Seguridad Cibernética"_. En el mismo aprendí los conceptos teóricos esenciales sobre la Ciberseguridad en la actualidad, su importancia y el impacto que reciben las empresas, gobiernos, organizaciones y personas a causa de los ciberataques que cada año se incrementan más y más.
-##### ❖ [Enlace del Certificado](https://www.credly.com/badges/691f7804-9b9e-43ae-9e07-005ae035f904){:target="_blank"}
+In 2021 I took a course from the company **Cisco**, on Cybersecurity: _"Introduction to Cyber Security"_. In it I learned the essential theoretical concepts about Cybersecurity today, its importance and the impact that companies, governments, organizations and individuals receive because of cyberattacks that increase more and more every year.
+
+❖ [Credential URL](https://www.credly.com/badges/691f7804-9b9e-43ae-9e07-005ae035f904){:target="_blank"}
 
 ![certificado-cisco](https://github.com/mateofumis/mateofumis.github.io/raw/master/assets/img/about/Introduccion-a-la-Seguridad-Cibernetica-Mateo-Fumis_px.webp)
 
 ----
 
-#### 📚💻 Actualmente me gusta programar principalmente en Bash Scripting y Python lo cual me sirve a la hora de analizar código en busca de vulnerabilidades y crear algunos scripts sencillos cuando realizo pentesting. 
+#### 📚💻 Currently I like to program mainly in Bash Scripting and Python which helps me when analyzing code for vulnerabilities and creating some simple scripts when pentesting.
 
-#### No obstante tengo en mente continuar aprendiendo programación, en específico el lenguaje Golang para luego crear scripts que automaticen la tarea del Pentesting Web y contribuir a la comunidad de Hackers y Pentesters en Github.
+#### However I have in mind to continue learning programming, specifically the Golang language to then create scripts that automate the task of Web Pentesting and contribute to the community of Hackers and Pentesters on Github.
 
 ----
 
-## 🌐 Enlaces útiles:
+### 🌐 Links:
 
 ❖ LinkedIn: [https://www.linkedin.com/in/mateo-gabriel-fumis](https://www.linkedin.com/in/mateo-gabriel-fumis){:target="_blank"}
 
 ❖ Offensive Cybersecurity (by hackermater): [https://hackermater.gitbook.io](https://hackermater.gitbook.io){:target="_blank"}
 
-❖ Perfil de Hack The Box: [https://app.hackthebox.com/profile/1223814](https://app.hackthebox.com/profile/1223814){:target="_blank"}
+❖ Hack The Box Profile: [https://app.hackthebox.com/profile/1223814](https://app.hackthebox.com/profile/1223814){:target="_blank"}
 
-❖ Github: [https://github.com/mateofumis](https://github.com/mateofumis){:target="_blank"}
+❖ Github Profile: [https://github.com/mateofumis](https://github.com/mateofumis){:target="_blank"}
 
-❖ Perfil de HackerOne: [https://hackerone.com/hackermater](https://hackerone.com/hackermater){:target="_blank"}
+❖ HackerOne Profile: [https://hackerone.com/hackermater](https://hackerone.com/hackermater){:target="_blank"}
 
-❖ Perfil de Bugcrowd: [https://bugcrowd.com/hackermater](https://bugcrowd.com/hackermater){:target="_blank"}
+❖ Bugcrowd Profile: [https://bugcrowd.com/hackermater](https://bugcrowd.com/hackermater){:target="_blank"}
 
-❖ Perfil de Intigriti: [https://app.intigriti.com/profile/xvim_hacker](https://app.intigriti.com/profile/xvim_hacker){:target="_blank"}
+❖ Intigriti Profile: [https://app.intigriti.com/profile/xvim_hacker](https://app.intigriti.com/profile/xvim_hacker){:target="_blank"}
 
 ---
 
-### 📧 Email de Contacto: [mateofumis1@gmail.com](mailto:mateofumis1@gmail.com)
+### 📧 Let's get in touch! [mateofumis1@gmail.com](mailto:mateofumis1@gmail.com)
 
-### 📝 Descargar mi CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1LKMvFKUMVzcGnutn-lSi2OPOVbnL4qPv/){:target="_blank"}
+### 📝 Download my CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1LKMvFKUMVzcGnutn-lSi2OPOVbnL4qPv/){:target="_blank"}
 
