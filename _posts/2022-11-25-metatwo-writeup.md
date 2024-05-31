@@ -1,5 +1,5 @@
 ---
-title:  "Writeup MetaTwo machine of Hack The Box"
+title:  "Writeup of MetaTwo machine of Hack The Box"
 date: 2022-11-25
 mathjax: true
 layout: post
