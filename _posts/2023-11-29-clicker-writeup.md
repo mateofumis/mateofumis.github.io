@@ -1,5 +1,5 @@
 ---
-title:  "Writeup de la máquina Clicker de Hack The Box"
+title:  "Writeup Clicker machine of Hack The Box"
 date: 2023-11-29
 mathjax: true
 layout: post
@@ -7,7 +7,7 @@ categories: writeup
 tags: ghidra burpsuite webapp php web-shell perl nmap reverse-engineering
 ---
 
-# Resolución de la máquina Clicker de la plataforma de HackTheBox
+# Resolution of Clicker Machine of Hack The Box
 
 ![https://i.ibb.co/CH0BhMY/clicker-htb-home.webp](https://i.ibb.co/85JCnVR/Clicker.webp)
 

