@@ -1,5 +1,5 @@
 ---
-title:  "Writeup Clicker machine of Hack The Box"
+title:  "Writeup of Clicker machine of Hack The Box"
 date: 2023-11-29
 mathjax: true
 layout: post
