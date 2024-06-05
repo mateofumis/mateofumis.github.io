@@ -8,7 +8,7 @@ order: 5
 
 ## ¡Hi, I'm Mateo! 👋👋
 
-### Welcome to this section in my blog. But before, an intrudiction in brief...
+### Welcome to this section in my blog. But before, an introduction in brief...
 
 🌐 Since child I always had a passion for computing and technology. After finish my high school degree, I started to study coding and Web Development.
 
