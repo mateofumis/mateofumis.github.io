@@ -32,13 +32,12 @@ order: 5
 
 * **Reconnaissance**:
   * **Subdomains**: [Subfinder](https://github.com/projectdiscovery/subfinder){:target="_blank"}
-  * **Wayback Machine**: [Waybackurls](https://github.com/tomnomnom/waybackurls){:target="_blank"}
-  * **IPs and CIDRs**: 
+  * **IPs and CIDRs**:
     * [Censys.io](https://search.censys.io){:target="_blank"}
     * [Nmap](https://nmap.org){:target="_blank"}
     * [Shodan](https://www.shodan.io){:target="_blank"}
-  * **Crawl**: 
-    * [Katana](https://github.com/projectdiscovery/katana){:target="_blank"} 
+  * **Crawl**:
+    * [Katana](https://github.com/projectdiscovery/katana){:target="_blank"}
     * [hakrawler](https://github.com/hakluke/hakrawler){:target="_blank"}
   * **HTTP Toolkit**:
     * [httpx](https://github.com/projectdiscovery/httpx){:target="_blank"}
@@ -47,33 +46,37 @@ order: 5
   * **DNS Queries**:
     * [dnsx](https://github.com/projectdiscovery/dnsx){:target="_blank"}
     * [dig](https://gitlab.isc.org/isc-projects/bind9/-/tree/main/bin/dig){:target="_blank"}
-  * **Parameter Finder**: 
+  * **Parameter Finder**:
     * [xnLinkfinder](https://github.com/xnl-h4ck3r/xnLinkFinder){:target="_blank"}
     * [Arjun](https://github.com/s0md3v/Arjun){:target="_blank"}
   * **Passive Crawl**:
     * [gau](https://github.com/lc/gau){:target="_blank"}
     * [waybackurls](https://github.com/tomnomnom/waybackurls){:target="_blank"}
-  * **Cloud Buckets Discovery**: 
-    * [cloud_enum](https://github.com/initstring/cloud_enum){:target="_blank"} 
+  * **Cloud Buckets Discovery**:
     * [CloudHunter](https://github.com/belane/CloudHunter){:target="_blank"}
-* **Explotation**
+    * [cloud_enum](https://github.com/initstring/cloud_enum){:target="_blank"}
+* **Explotation**:
   * **Manual**: [Burp Suite](https://portswigger.net/burp){:target="_blank"}
   * **Out-of-Band (OOB)**: [Interactsh](https://github.com/projectdiscovery/interactsh){:target="_blank"}
   * **Automation**: [Nuclei](https://github.com/projectdiscovery/nuclei){:target="_blank"}
-  * **XSS**: 
-    * [XSS Cheatsheet](https://github.com/portswigger/xss-cheatsheet){:target="_blank"} (Burp Extension) 
-    * [Gxss](https://github.com/KathanP19/Gxss){:target="_blank"} 
+  * **XSS**:
+    * [XSS Cheatsheet](https://github.com/portswigger/xss-cheatsheet){:target="_blank"} (Burp Extension)
+    * [Gxss](https://github.com/KathanP19/Gxss){:target="_blank"}
     * [Dalfox](https://github.com/hahwul/dalfox){:target="_blank"}
   * **Fuzzing**: [FFUF](https://github.com/ffuf/ffuf){:target="_blank"}
-  * **Directories**: 
-    * [Feroxbuster](https://github.com/epi052/feroxbuster){:target="_blank"} 
+  * **Directories**:
+    * [Feroxbuster](https://github.com/epi052/feroxbuster){:target="_blank"}
     * [Gobuster](https://github.com/OJ/gobuster){:target="_blank"}
-  * **SQL Injection**: 
-    * [SQLmap](https://github.com/sqlmapproject/sqlmap){:target="_blank"} 
+  * **SQL Injection**:
+    * [SQLmap](https://github.com/sqlmapproject/sqlmap){:target="_blank"}
     * [Ghauri](https://github.com/r0oth3x49/ghauri){:target="_blank"}
   * **SSTI**: [SSTImap](https://github.com/vladko312/SSTImap){:target="_blank"}
   * **WAF Bypass**: [Hackvertor](https://github.com/portswigger/hackvertor){:target="_blank"} (Burp Extension)
   * **401/403 Bypass**: [Bypass Url Parser](https://github.com/laluka/bypass-url-parser){:target="_blank"}
+  * **APIs**:
+    * [mitmweb](https://github.com/mitmproxy/mitmproxy){:target="_blank"}
+    * [mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger){:target="_blank"}
+    * [postleaks](https://github.com/cosad3s/postleaks){:target="_blank"}
   * **JWT (JSON Web Tokens)**:
     * [JWT Editor](https://github.com/portswigger/jwt-editor){:target="_blank"} (Burp Extension)
     * [jwt_tool.py](https://github.com/ticarpi/jwt_tool){:target="_blank"}
