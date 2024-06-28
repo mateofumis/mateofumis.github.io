@@ -97,6 +97,16 @@ order: 5
 
 ----
 
+#### CompTIA PenTest+ (PT0-002) Cert Prep: 4 Reporting and Communication
+
+LinkedIn Learning course which prepared me for the **CompTIA PenTest+**, specifically focusing on *reporting and communication*. This course covered the essential skills required for carrying out reporting and communication during the Pen-testing process. It included the most important aspects such as: keeping all data encrypted and safe, effectively communicating with the appropriate authority when action is needed for a critical situation, and also emphasizing the importance of writing a report depending on the audience (whether executive, technical, managers, etc...). Additionally this course covered how to write professionally and in detail, taking care of the client's sensitive information, to finally present and explain the findings during the Pen-test and suggesting mitigations and the best practices.
+
+❖ [Credential URL](https://www.linkedin.com/learning/certificates/26789538a1854c4576d5e67b19dc3ac45985924c54fc67d5869d4ac3dd97dbec){:target="_blank"}
+
+![certificado-comptia-reporting-and-communication](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/about/CompTIA-PenTest-PT0002-Cert-Prep-4-Reporting-and-Communication_px.webp)
+
+----
+
 #### Mobile Application Penetration Testing
 
 **TCM Security** course on Mobile Pentesting. In this course I learned how to perform penetration testing on mobile applications by performing both static and dynamic analysis. With tools such as jadx-gui, Apktool, Objection, Frida, Burp Suite and Android Studio, this course covered in a complete way the phases of mobile pentesting.
