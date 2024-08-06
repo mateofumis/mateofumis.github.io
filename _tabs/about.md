@@ -225,5 +225,4 @@ In 2021 I took a course from the company **Cisco**, on Cybersecurity: _"Introduc
 
 ### 📧 Let's get in touch! [mateofumis1@gmail.com](mailto:mateofumis1@gmail.com)
 
-### 📝 Download my CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1rAeu_U2o02t56TThiBhRnn19ovrVwisy){:target="_blank"}
-
+### 📝 Download my CV: [CV - Mateo Fumis (Google Drive)](https://drive.google.com/file/d/1BCfWczU8gKsnP73Gjpt2ThK0ohNObAV5){:target="_blank"}
