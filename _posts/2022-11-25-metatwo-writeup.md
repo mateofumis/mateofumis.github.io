@@ -9,7 +9,7 @@ tags: CVE wordpress sql-injection burpsuite sqlmap hashcat john ftp pgp
 
 # Resolution of MetaTwo machine of Hack The Box
 
-![](https://i.ibb.co/LnFdRp8/metatwo.png)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/metapress.htb/metatwo.webp)
 
 ### 🚀 *"The key to this machine is to look for Wordpress vulnerabilities."*
 
@@ -27,7 +27,7 @@ sudo nmap 10.10.11.186 -p21,22,80 -sVC -Pn -vvv -oN
 
 #### Now with the complete scan we obtain the following result:
 
-![](https://i.ibb.co/VV86YBj/nmap-scan-Complete.png)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/metapress.htb/nmap-scanComplete.webp)
 
 **We see that port 80 is open running the http service and we also see the DNS of `metapress.htb`, so let's check the page **.
 
@@ -39,11 +39,11 @@ Add the following line at the end of /etc/hosts
 10.10.11.186	metapress.htb	# Máquina MetaTwo
 ```
 
-![](https://i.ibb.co/rZrM2yb/metapress-htb.png)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/metapress.htb/metapress-htb.webp)
 
 #### With the Wappalyzer extension we see that Wordpress is running, so we could search for vulnerabilities with the "Wpscan" tool.
 
-![](https://i.ibb.co/JnL9C16/wappalyzer-wordpress.png)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/wappalyzer-wordpress.webp)
 
 ```bash
 wpscan --url http://metapress.htb --plugins-detection mixed -e ap,at -t 450 --api-token {TU API TOKEN}
@@ -96,7 +96,7 @@ curl -i 'http://metapress.htb/wp-admin/admin-ajax.php' --data 'action=bookingpre
 
 #### After being captured by Burp Suite, we copy the Request to the file "req.txt" (or any name, using "req.txt" is good practice to remember what file it is):
 
-![](https://i.ibb.co/8Bpgjvr/burpsuite-copy-to-file.png)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/metapress.htb/burpsuite-copy-to-file.webp)
 
 ## And here we go with SQLmap:
 
@@ -175,7 +175,7 @@ Once the vulnerability is exploited, we find:
 
 - The user **"jnelson"** in /etc/passwd with access to a bash shell.
 
-![](https://i.ibb.co/NWM3gLp/etc-passwd.png)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/metapress.htb/etc-passwd.webp)
 
 #### Then we proceed to connect to the FTP service with the credentials we have obtained.
 
@@ -234,7 +234,7 @@ We have the encrypted message, the PGP Key and the password to decrypt the messa
 
 #### As it didn't work for me on Linux, maybe it's because of my Java version, I did it on Windows 10 and finally, we get the root password:
 
-![](https://i.ibb.co/9NYMH1J/pgp-tool.png)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/metapress.htb/pgp-tool.webp)
 
 ```
 p7qfAZt4_A1xo_0x

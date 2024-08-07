@@ -5,7 +5,7 @@ mathjax: true
 layout: post
 ---
 
-![](https://i0.wp.com/academy.leewayweb.com/wp-content/uploads/2018/07/cursos-y-consejos-para-aprender-a-programar-desde-cero-gratis-y-online.jpg)
+![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/creacion-del-sitio-web/creacion-del-sitio-web.webp)
 
 **Español (Spanish):**
 Hoy, 17 de Noviembre del 2022 decidí crear este sitio web, alojado en Github Pages con la finalidad de poder escribir mis Writeups de las máquinas que resuelvo, y además subir de vez en cuando artículos sobre el tema de la Ciberseguridad.
