@@ -74,6 +74,7 @@ order: 5
   * **WAF Bypass**: [Hackvertor](https://github.com/portswigger/hackvertor){:target="_blank"} (Burp Extension)
   * **401/403 Bypass**: [Bypass Url Parser](https://github.com/laluka/bypass-url-parser){:target="_blank"}
   * **APIs**:
+    * [Postman](https://www.postman.com/downloads){:target="_blank"}
     * [mitmweb](https://github.com/mitmproxy/mitmproxy){:target="_blank"}
     * [mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger){:target="_blank"}
     * [postleaks](https://github.com/cosad3s/postleaks){:target="_blank"}
