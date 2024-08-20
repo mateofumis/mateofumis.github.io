@@ -98,6 +98,17 @@ order: 5
 
 ----
 
+#### API Penetration Testing
+
+**APIsec University** course which covered the most complete and advanced content and techniques to perform Pentesting in APIs, which includes: Reverse Engineering in API to then create a custom Swagger file, as well as API reconnaissance and the advanced use of Postman. 
+In this course I also learned relevant attacks techniques such as BOLA (Broken Object Authorization) and BFLA (Broken Function Level Authorization), as well as JWT tokens attacks, Injections and SSRF in APIs, and the **[OWASP API Security Top 10](https://owasp.org/www-project-api-security/){:target="_blank"}**
+
+❖ [Credential URL](https://www.credly.com/badges/177f7603-4465-4581-9a81-34a89df5a81b/){:target="_blank"}
+
+![certificado-api-penetration-testing-apisec-university](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/about/APIsec-Penetration-Testing-Mateo-Fumis_px.webp)
+
+----
+
 #### CompTIA PenTest+ (PT0-002) Cert Prep: 4 Reporting and Communication
 
 LinkedIn Learning course which prepared me for the **CompTIA PenTest+**, specifically focusing on *reporting and communication*. This course covered the essential skills required for carrying out reporting and communication during the Pen-testing process. It included the most important aspects such as: keeping all data encrypted and safe, effectively communicating with the appropriate authority when action is needed for a critical situation, and also emphasizing the importance of writing a report depending on the audience (whether executive, technical, managers, etc...). Additionally this course covered how to write professionally and in detail, taking care of the client's sensitive information, to finally present and explain the findings during the Pen-test and suggesting mitigations and the best practices.
