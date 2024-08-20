@@ -101,7 +101,7 @@ order: 5
 #### API Penetration Testing
 
 **APIsec University** course which covered the most complete and advanced content and techniques to perform Pentesting in APIs, which includes: Reverse Engineering in API to then create a custom Swagger file, as well as API reconnaissance and the advanced use of Postman. 
-In this course I also learned relevant attacks techniques such as BOLA (Broken Object Authorization) and BFLA (Broken Function Level Authorization), as well as JWT tokens attacks, Injections and SSRF in APIs, and the **[OWASP API Security Top 10](https://owasp.org/www-project-api-security/){:target="_blank"}.**
+In this course I also learned relevant attacks techniques such as BOLA (Broken Object Level Authorization) and BFLA (Broken Function Level Authorization), as well as JWT tokens attacks, Injections and SSRF in APIs, and the **[OWASP API Security Top 10](https://owasp.org/www-project-api-security/){:target="_blank"}.**
 
 ❖ [Credential URL](https://www.credly.com/badges/177f7603-4465-4581-9a81-34a89df5a81b/){:target="_blank"}
 
