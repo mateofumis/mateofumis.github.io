@@ -233,6 +233,8 @@ In 2021 I took a course from the company **Cisco**, on Cybersecurity: _"Introduc
 
 ❖ Intigriti Profile: [https://app.intigriti.com/profile/xvim_hacker](https://app.intigriti.com/profile/xvim_hacker){:target="_blank"}
 
+❖ YouTube Channel: [https://www.youtube.com/@hackermater](https://www.youtube.com/@hackermater){:target="_blank"}
+
 ---
 
 ### 📧 Let's get in touch! [mateofumis1@gmail.com](mailto:mateofumis1@gmail.com)
