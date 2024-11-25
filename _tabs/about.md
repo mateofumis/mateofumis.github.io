@@ -6,17 +6,9 @@ layout: page
 order: 5
 ---
 
-## ¡Hi, I'm Mateo! 👋👋
+## Hi everyone, I'm Mateo! 👋👋
 
-### Welcome to this section in my blog. But before, an introduction in brief...
-
-🌐 Since child I always had a passion for computing and technology. After finish my high school degree, I started to study coding and Web Development.
-
-📅 On October, 2022 was when I started entering the world of Cybersecurity and Ethical Hacking 🕵️.
-
-📚 I started by studying everything that encompasses Web Application Pentesting, practicing vulnerable machine resolution at **Hack The Box**, taking online courses and reading Cybersecurity articles and Writeups.
-
-👔 Eventually, with time and practice I decided that Web Application Pentesting is the area where I want to specialize.
+I am Pentester and Ethical Hacker, Cybersecurity Enthusiast and Bug Bounty Hunter. I started my career in Cybersecurity around October 2022 and then I'm currently studying all about Pentesting and Cybersecurity. I love to solve machines in Hack The Box and the Labs of Port Swigger's Web Security Academy. Also I'm focused in the Bug Bounty Hunting on HackerOne.
 
 ### 💻 Currently on 2024 I spend my time as Bug Bounty Hunter on **HackerOne, Intigriti and Bugcrowd**.
 
