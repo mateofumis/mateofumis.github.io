@@ -16,7 +16,7 @@ platforms:
 
   # Uncomment below if you need to.
   #
-  - type: Linkedin
+  - type: LinkedIn
     icon: "fab fa-linkedin"
     link: "https://www.linkedin.com/sharing/share-offsite/?url=URL"
   #
