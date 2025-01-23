@@ -80,8 +80,7 @@ I am Pentester and Ethical Hacker, Cybersecurity Enthusiast and Bug Bounty Hunte
 * **Cookie-Editor** ([https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/){:target="_blank"})
 * **FoxyProxy Standard** ([https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/){:target="_blank"})
 * **User-Agent Switcher and Manager** ([https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/){:target="_blank"})
-* **ModHeader** ([https://addons.mozilla.org/en-US/firefox/addon/modheader-firefox/](https://addons.mozilla.org/en-US/firefox/addon/modheader-firefox/){:target="_blank"})
-* **Wayback Machine** ([https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new/](https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new/){:target="_blank"})
+* **Modify Header Value** ([https://addons.mozilla.org/en-US/firefox/addon/modify-header-value/](https://addons.mozilla.org/en-US/firefox/addon/modify-header-value/){:target="_blank"})
 * **Firefox Multi-Account Containers** ([https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/){:target="_blank"})
 
 ----
@@ -216,6 +215,8 @@ In 2021 I took a course from the company **Cisco**, on Cybersecurity: _"Introduc
 ❖ Offensive Cybersecurity (by hackermater): [https://hackermater.gitbook.io](https://hackermater.gitbook.io){:target="_blank"}
 
 ❖ Hack The Box Profile: [https://app.hackthebox.com/profile/1223814](https://app.hackthebox.com/profile/1223814){:target="_blank"}
+
+❖ TryHackMe Profile: [https://tryhackme.com/r/p/hackermater](https://tryhackme.com/r/p/hackermater){:target="_blank"}
 
 ❖ Github Profile: [https://github.com/mateofumis](https://github.com/mateofumis){:target="_blank"}
 
