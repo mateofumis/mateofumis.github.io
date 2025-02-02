@@ -22,7 +22,7 @@ description: Cybersecurity blog dedicated to writeups of vulnerable machines fro
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://hackermater.github.io"
+url: "https://mateofumis.github.io"
 
 github:
   username: mateofumis
