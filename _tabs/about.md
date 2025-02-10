@@ -28,6 +28,7 @@ I am Pentester and Ethical Hacker, Cybersecurity Enthusiast and Bug Bounty Hunte
     * [Censys.io](https://search.censys.io){:target="_blank"}
     * [Nmap](https://nmap.org){:target="_blank"}
     * [Shodan](https://www.shodan.io){:target="_blank"}
+  * **Google Dorking**: [dumpdork](https://github.com/mateofumis/dumpdork){:target:"_blank"}
   * **Crawl**:
     * [Katana](https://github.com/projectdiscovery/katana){:target="_blank"}
     * [hakrawler](https://github.com/hakluke/hakrawler){:target="_blank"}
@@ -47,7 +48,7 @@ I am Pentester and Ethical Hacker, Cybersecurity Enthusiast and Bug Bounty Hunte
   * **Cloud Buckets Discovery**:
     * [CloudHunter](https://github.com/belane/CloudHunter){:target="_blank"}
     * [cloud_enum](https://github.com/initstring/cloud_enum){:target="_blank"}
-* **Explotation**:
+* **Exploitation**:
   * **Manual**: [Burp Suite](https://portswigger.net/burp){:target="_blank"}
   * **Out-of-Band (OOB)**: [Interactsh](https://github.com/projectdiscovery/interactsh){:target="_blank"}
   * **Automation**: [Nuclei](https://github.com/projectdiscovery/nuclei){:target="_blank"}
@@ -225,8 +226,6 @@ In 2021 I took a course from the company **Cisco**, on Cybersecurity: _"Introduc
 ❖ Bugcrowd Profile: [https://bugcrowd.com/hackermater](https://bugcrowd.com/hackermater){:target="_blank"}
 
 ❖ Intigriti Profile: [https://app.intigriti.com/profile/xvim_hacker](https://app.intigriti.com/profile/xvim_hacker){:target="_blank"}
-
-❖ YouTube Channel: [https://www.youtube.com/@hackermater](https://www.youtube.com/@hackermater){:target="_blank"}
 
 ---
 
