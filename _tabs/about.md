@@ -90,6 +90,16 @@ I am Pentester and Ethical Hacker, Cybersecurity Enthusiast and Bug Bounty Hunte
 
 ----
 
+#### SOC Fundamentals
+
+**LetsDefend** course where I learned the fundamentals of a SOC (Security Operations Center), the use of a SIEM dashboard, the methodology of threat hunting, email phishing analysis with [PhishTool](https://app.phishtool.com/){:target="_blank"}, malware analysis with VirusTotal, and much more. This course provided me with an excellent introduction to the SOC environment and prepared me to participate in Blue Team engagements.
+
+❖ [Credential URL](https://app.letsdefend.io/my-rewards/detail/15d447d2-7b11-461b-a4f2-a9bac4944937){:target="_blank"}
+
+![certificate-soc-fundamentals-mateo-fumis](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/about/SOC-Fundamentals-LetsDefend-Mateo-Fumis_px.webp)
+
+----
+
 #### API Penetration Testing
 
 **APIsec University** course which covered the most complete and advanced content and techniques to perform Pentesting in APIs, which includes: Reverse Engineering in API to then create a custom Swagger file, as well as API reconnaissance and the advanced use of Postman. 
@@ -213,7 +223,7 @@ In 2021 I took a course from the company **Cisco**, on Cybersecurity: _"Introduc
 
 ❖ LinkedIn: [https://www.linkedin.com/in/mateo-gabriel-fumis](https://www.linkedin.com/in/mateo-gabriel-fumis){:target="_blank"}
 
-❖ Offensive Cybersecurity (by hackermater): [https://hackermater.gitbook.io](https://hackermater.gitbook.io){:target="_blank"}
+❖ Offensive Cybersecurity (by hackermater): [https://hackermater.mfumis.site](https://hackermater.mfumis.site){:target="_blank"}
 
 ❖ Hack The Box Profile: [https://app.hackthebox.com/profile/1223814](https://app.hackthebox.com/profile/1223814){:target="_blank"}
 
