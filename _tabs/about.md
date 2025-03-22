@@ -83,6 +83,7 @@ I am Pentester and Ethical Hacker, Cybersecurity Enthusiast and Bug Bounty Hunte
 * **User-Agent Switcher and Manager** ([https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/){:target="_blank"})
 * **Modify Header Value** ([https://addons.mozilla.org/en-US/firefox/addon/modify-header-value/](https://addons.mozilla.org/en-US/firefox/addon/modify-header-value/){:target="_blank"})
 * **Firefox Multi-Account Containers** ([https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/){:target="_blank"})
+* **Shodan** ([https://addons.mozilla.org/en-US/firefox/addon/shodan-addon/](https://addons.mozilla.org/en-US/firefox/addon/shodan-addon/){:target="_blank"})
 
 ----
 
