@@ -46,8 +46,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 - As we see, the machine has the **port 22 running SSH** (Secure Shell) service, and the **port 80 running HTTP** (Hyper Text Transfer Protocol) service which, with our Nmap's script executed, we know it's about an **Apache server** on its version `2.4.58`.
 
-- When we enter at `http://10.10.11.37` in our Firefox web browser (with [FoxyProxy](https:/
-/addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/){:target="_blank"} configured to redirect all the traffic via **Burp Suite**), we can see that the IP address `10.10.11.37` is resolved by de DNS of our VPN connection with Hack The Box and we are redirected to `http://instant.htb`.
+- When we enter at `http://10.10.11.37` in our Firefox web browser (with [FoxyProxy](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/){:target="_blank"} configured to redirect all the traffic via **Burp Suite**), we can see that the IP address `10.10.11.37` is resolved by de DNS of our VPN connection with Hack The Box and we are redirected to `http://instant.htb`.
 
 ![](https://raw.githubusercontent.com/mateofumis/mateofumis.github.io/master/assets/img/instant.htb/instant-machine-domain.webp)
 
