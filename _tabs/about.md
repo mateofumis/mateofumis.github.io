@@ -10,7 +10,7 @@ order: 5
 
 I am Pentester and Ethical Hacker, Cybersecurity Enthusiast and Bug Bounty Hunter. I started my career in Cybersecurity around October 2022 and then I'm currently studying all about Pentesting and Cybersecurity. I love to solve machines in Hack The Box and the Labs of Port Swigger's Web Security Academy. Also I'm focused in the Bug Bounty Hunting on HackerOne.
 
-### 💻 Currently on 2024 I spend my time as Bug Bounty Hunter on **HackerOne, Intigriti and Bugcrowd**.
+### 💻 In 2025, I am currently spending my time working as a freelance Bug Bounty Hunter on **HackerOne, Intigriti and Bugcrowd** platforms.
 
 ❖ HackerOne Profile: [https://hackerone.com/hackermater](https://hackerone.com/hackermater){:target="_blank"}
 
