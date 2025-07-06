@@ -23,6 +23,7 @@
 <html lang="{{ site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
 
   {% include head.html %}
+  {% include redirect.html %}
 
   <body>
     {% include sidebar.html lang=lang %}
@@ -100,7 +101,7 @@
     {% include_cached search-loader.html %}
 
 <!-- Redirecting to hackermater's Gitbook-->
-<script> window.location.href = "https://hackermater.gitbook.io" </script> 
+<!-- <script> window.location.href = "https://hackermater.gitbook.io" </script>  -->
 
   </body>
 </html>
